@@ -309,45 +309,16 @@ btcmarkets:
   url: https://www.btcmarkets.net
   content: Bitcoin exchange.
 
-justcoin:
-  label: JustCoin.com
-  countries: [uk no]
-  location: [no]
-  icon: /favicon.png
-  url: https://www.justcoin.com
-  content: Bitcoin exchange.
-
-justcoin:
-  label: JustCoin.com
-  countries: [uk no]
-  location: [no]
-  icon: /favicon.png
-  url: https://www.justcoin.com
-  content: Bitcoin exchange.
-
-
-
 btc-dealer:
-  label: Btc-dealer
+  label: BTC-Dealer
   countries: [af, ax, al, dz, as, ad, ao, ai, aq, ag, ar, am, aw, au, at, az, bs, bh, bd, bb, by, be, bz, bj, bm, bt, bo, ba, bw, bv, br, io, bn, bg, bf, bi, kh, cm, ca, cv, ky, cf, td, cl, cn, cx, cc, co, km, cg, cd, ck, cr, ci, hr, cu, cy, cz, dk, dj, dm, do, ec, eg, sv, gq, er, ee, et, fk, fo, fj, fi, fr, gf, pf, tf, ga, gm, ge, de, gh, gi, gr, gl, gd, gp, gu, gt, gg, gn, gw, gy, ht, hm, va, hn, hk, hu, is, in, id, ir, iq, ie, im, il, it, jm, jp, je, jo, kz, ke, ki, kp, kr, kw, kg, la, lv, lb, ls, lr, ly, li, lt, lu, mo, mk, mg, mw, my, mv, ml, mt, mh, mq, mr, mu, yt, mx, fm, md, mc, mn, me, ms, ma, mz, mm, na, nr, np, nl, an, nc, nz, ni, ne, ng, nu, nf, mp, no, om, pk, pw, ps, pa, pg, py, pe, ph, pn, pl, pt, pr, qa, re, ro, ru, rw, sh, kn, lc, pm, vc, ws, sm, st, sa, sn, rs, sc, sl, sg, sk, si, sb, so, za, gs, es, lk, sd, sr, sj, sz, se, ch, sy, tw, tj, tz, th, tl, tg, tk, to, tt, tn, tr, tm, tc, tv, ug, ua, ae, uk, us, um, uy, uz, vu, ve, vn, vg, vi, wf, eh, ye, zm, zw]
   icon: /favicon.png
   url: http://btc-dealer.com/
   content: |
       <p>Payment methods accepted:<br />
-      <br />
-      OKPAY (USD)<br />
-      cashU (USD)<br />
-      Cash4WM (USD, RUB)<br />
-      Przelewy24 (PLN)<br />
       Credit card via Liqpay
       </p>
 
-24change:
-  label: 24change 
-  countries: [uk,ru]
-  icon: /favicon.png
-  url: https://24change.com/
-  content: <p>An automated buy/sell bitcoin service</p>
 
 quickbitcoin:
   label: QuickBitcoin 
@@ -356,14 +327,6 @@ quickbitcoin:
   icon: /favicon.png
   url: https://quickbitcoin.co.uk/
   content: <p>At QuickBitcoin.co.uk you can buy Bitcoins for UK bank transfers. Average transaction time is under 10 minutes.</p>
-
-dagensia:
-  label: Dagensia 
-  countries: [uk]
-  location: [cz]
-  icon: /favicon.png
-  url: https://dagensia.eu/
-  content: <p>Dagensia allows you to Buy and Sell Bitcoins and to store Bitcoins securely. You can get your first Bitcoin today with Sofort Uberweisung or Bank wire, or you can start accepting Bitcoins directly into EUR or USD balance and ATM card.</p>
 
 bitcoinsnorge:
   label: BitcoinsNorge 
@@ -446,14 +409,6 @@ bitcoinaustralia:
   url: https://www.getbitcoin.com.au/
   content: Providing an exchange service to convert Australian dollars to bitcoins. Low exchange rates and fair commission.
 
-kraken:
-  label: Kraken
-  countries: [be bg cz dk de ee ie el es fr it cy lv lt lu hu mt nl at pl pt ro si sk fi se uk]
-  location: [us]
-  icon: /favicon.png
-  url: https://www.kraken.com/
-  content: Bitcoin exchange.
-
 coinmkt:
   label: CoinMkt
   countries: [us]
@@ -470,14 +425,6 @@ campbx:
   url: https://campbx.com/
   content: Bitcoin exchange.
 
-bitquick:
-  label: BitQuick
-  countries: [ca]
-  location: [ca]
-  icon: /favicon.png
-  url: https://bitquick.co/
-  content: Bitcoin exchange.
-
 Bitonic:
   label: Bitonic
   countries: [nl]
@@ -488,7 +435,7 @@ Bitonic:
 
 Bittiraha:
   label: Bittiraha.fi
-  countries: [be bg cz dk de ee ie el es fr it cy lv lt lu hu mt nl at pl pt ro si sk fi se uk]
+  countries: [be, bg, cz, dk, de, ee, ie, el, es, fr, it, cy, lv, lt, lu, hu, mt, nl, at, pl, pt, ro, si, sk, fi, se, uk]
   location: [nl]
   icon: /favicon.png
   url: https://bittiraha.fi/
@@ -563,3 +510,82 @@ quickbt:
   content:|
     <p>Instant Bitcoin purchase/payment using your Interac debit card.</p>
 
+virwox:
+  countries: [af, ax, al, dz, as, ad, ao, ai, aq, ag, ar, am, aw, au, at, az, bs, bh, bd, bb, by, be, bz, bj, bm, bt, bo, ba, bw, bv, br, io, bn, bg, bf, bi, kh, cm, ca, cv, ky, cf, td, cl, cn, cx, cc, co, km, cg, cd, ck, cr, ci, hr, cu, cy, cz, dk, dj, dm, do, ec, eg, sv, gq, er, ee, et, fk, fo, fj, fi, fr, gf, pf, tf, ga, gm, ge, de, gh, gi, gr, gl, gd, gp, gu, gt, gg, gn, gw, gy, ht, hm, va, hn, hk, hu, is, in, id, ir, iq, ie, im, il, it, jm, jp, je, jo, kz, ke, ki, kp, kr, kw, kg, la, lv, lb, ls, lr, ly, li, lt, lu, mo, mk, mg, mw, my, mv, ml, mt, mh, mq, mr, mu, yt, mx, fm, md, mc, mn, me, ms, ma, mz, mm, na, nr, np, nl, an, nc, nz, ni, ne, ng, nu, nf, mp, no, om, pk, pw, ps, pa, pg, py, pe, ph, pn, pl, pt, pr, qa, re, ro, ru, rw, sh, kn, lc, pm, vc, ws, sm, st, sa, sn, rs, sc, sl, sg, sk, si, sb, so, za, gs, es, lk, sd, sr, sj, sz, se, ch, sy, tw, tj, tz, th, tl, tg, tk, to, tt, tn, tr, tm, tc, tv, ug, ua, ae, uk, us, um, uy, uz, vu, ve, vn, vg, vi, wf, eh, ye, zm, zw]
+  location: [at]
+  icon: https://www.virwox.com/favicon.ico
+  label: VirWoX 
+  url: https://www.virwox.com
+  content:|
+    <p>VirWoX is currently the only exchange where you can buy BTC with PayPal and Credit Cards (among other payment methods).</p>
+
+vaultofsatoshi:
+  countries: [ca]
+  location: [ca]
+  icon: /favicon.png
+  label: Vault of Satoshi
+  url: https://www.vaultofsatoshi.com/
+  content:|
+    <p>A new Canadian company offering all of its services at 0.5%. Buy/Sell Bitcoin, Litecoin and Peercoin. Supports deposit/withdrawal by e-wallet, deposits by cheque or wire transfer. </p>
+
+inrbtc:
+  countries: [in]
+  location: [in]
+  icon: https://inrbtc.com/assets/img/favicon.png
+  label: INRBTC - India Bitcoin Exchange
+  url: https://inrbtc.com/
+  content:|
+    <p>INRBTC is a real time exchange for buying and selling Bitcoins in Indian currency. No registration required, No PAN card verification. Just placing an order and waiting for the trade to be executed.</p>
+
+kraken:
+  label: Kraken
+  countries: [be bg cz dk de ee ie el es fr it cy lv lt lu hu mt nl at pl pt ro si sk fi se uk us]
+  location: [uk]
+  icon: https://www.kraken.com/img/favicon.png
+  url: https://www.kraken.com/
+  content:|
+   <p>Kraken is a fully compliant, Forex-style trading site with its own market of buyers and sellers, offering full customer support and high account security. Offers EUR, and USD deposits/withdrawals via wire transfer or SEPA. </p>
+
+24change:
+  label: 24change 
+  countries: [af, ax, al, dz, as, ad, ao, ai, aq, ag, ar, am, aw, au, at, az, bs, bh, bd, bb, by, be, bz, bj, bm, bt, bo, ba, bw, bv, br, io, bn, bg, bf, bi, kh, cm, ca, cv, ky, cf, td, cl, cn, cx, cc, co, km, cg, cd, ck, cr, ci, hr, cu, cy, cz, dk, dj, dm, do, ec, eg, sv, gq, er, ee, et, fk, fo, fj, fi, fr, gf, pf, tf, ga, gm, ge, de, gh, gi, gr, gl, gd, gp, gu, gt, gg, gn, gw, gy, ht, hm, va, hn, hk, hu, is, in, id, ir, iq, ie, im, il, it, jm, jp, je, jo, kz, ke, ki, kp, kr, kw, kg, la, lv, lb, ls, lr, ly, li, lt, lu, mo, mk, mg, mw, my, mv, ml, mt, mh, mq, mr, mu, yt, mx, fm, md, mc, mn, me, ms, ma, mz, mm, na, nr, np, nl, an, nc, nz, ni, ne, ng, nu, nf, mp, no, om, pk, pw, ps, pa, pg, py, pe, ph, pn, pl, pt, pr, qa, re, ro, ru, rw, sh, kn, lc, pm, vc, ws, sm, st, sa, sn, rs, sc, sl, sg, sk, si, sb, so, za, gs, es, lk, sd, sr, sj, sz, se, ch, sy, tw, tj, tz, th, tl, tg, tk, to, tt, tn, tr, tm, tc, tv, ug, ua, ae, uk, us, um, uy, uz, vu, ve, vn, vg, vi, wf, eh, ye, zm, zw]
+  location: [ru, cz, nl, ua]
+  icon: /favicon.png
+  url: https://24change.com/
+  content:|
+   <p>An automated buy/sell bitcoin service</p>
+
+dagensia:
+  label: Dagensia 
+  countries: [ ad, at, be, bg, hr, cy, cz, dk, ee, fi, fr, de, gi, gr, hu, is, ie, it, lv, lt, lu, mt, nl, no, pl, pt, ro, sk, si, es, se, ch, gb]
+  location: [cz]
+  icon: https://dagensia.eu/wp-content/themes/ecardone/images/favicon.png
+  url: https://dagensia.eu/
+  content:|
+   <p>Dagensia allows you to Buy and Sell Bitcoins and to store Bitcoins securely. You can get your first Bitcoin today with Sofort Uberweisung or Bank wire, or you can start accepting Bitcoins directly into EUR or USD balance and ATM card.</p>
+
+bitquick:
+  label: BitQuick
+  countries: [ca, us, au, be, bg, cz, dk, de, ee, ie, el, es, fr, it, cy, lv, lt, lu, hu, mt, nl, at, pl, pt, ro, si, sk, fi, se, uk]
+  location: [us]
+  icon: https://www.bitquick.co/favicon.ico
+  url: https://bitquick.co/
+  content:|
+   <p> BitQuick.co helps connect Bitcoin buyers and sellers, directly to their own bank accounts. Buy Bitcoins instantly with cash deposit or SEPA transfer from sellers with bitcoin already in escrow for a low 2% fee (0% to sell) </p>
+
+justcoin:
+  label: JustCoin.com
+  countries: [al, ad, be, ba, bg, dk, ee, fi, fr, fo, gi, gl, gg, gr, ie, is, im, it, je, hr, cy, lv, li, lt, lu, mk, mt, mu, mc, me, nl, no, pl, pt, ro, sm, rs, sk, si, es, uk, ch, se, cz, tn, tr, de, hu, at, us, ca, au, nz, br, cr, mx, za]
+  location: [no]
+  icon: https://justcoin.com/favicon.png
+  url: https://www.justcoin.com
+  content:|
+   <p> A Bitcoin currency exchange from Norway that supports EUR and NOK, as well as Litecoin and Ripple. </p>
+
+privatbit:
+  label: PrivatBit
+  countries: [ar, bo, br, cl, co, cr, cu, do, ec, sv, gf, gt, ht, hn, mx, ni, pa, py, pe, uy, ve, be, bg, cz, dk, de, ee, ie, el, es, fr, it, cy, lv, lt, lu, hu, mt, nl, at, pl, pt, ro, si, sk, fi, se, uk, hk, cn, jp, au, ru, ua]
+  location: [ua]
+  icon: /favicon.png
+  url: https://privatbit.com/
+  content: <p>Bitcoin exchange.</p>
