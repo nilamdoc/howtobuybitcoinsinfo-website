@@ -589,3 +589,12 @@ privatbit:
   icon: /favicon.png
   url: https://privatbit.com/
   content: <p>Bitcoin exchange.</p>
+
+btcchina:
+  countries: [cn, tw]
+  location: [cn, tw]
+  icon: https://btcchina.com/img/favicon.ico
+  label: BTCChina
+  url: https://btcchina.com/
+  content:|
+    <p> A major Bitcoin exchange based in China.</p>
