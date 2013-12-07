@@ -64,7 +64,7 @@
 
 <div id="header">
 	<div style="float: right">
-		<a href="mailto:info@howtobuybitcoins.info?body=For additions, please provide: Site name, url, description, location (e.g UK), and list of supported countries. Multiple languages OK. Thanks.">Corrections / Updates?</a> |
+		<a href="mailto:info@howtobuybitcoins.info?body=Please provide: Site name, URL, description, exchange location, supported countries. For countries please use their codes (Like FR, US, CA etc.). Any language OK. Thanks.">Corrections / Updates?</a> |
 		<a href="https://github.com/jonwaller/howtobuybitcoinsinfo-website">Contribute on Github</a>
 	</div>  
 
@@ -146,6 +146,8 @@
 				generate_country_boxes($serviceData, $currentcountry);
 			}
 		?>
+
+		<center>Something missing? Send an <a href="mailto:info@howtobuybitcoins.info?body=Please provide: Site name, URL, description, exchange location, supported countries. For countries please use their codes (Like FR, US, CA etc.). Any language OK. Thanks.">update</a> or <a href="https://github.com/jonwaller/howtobuybitcoinsinfo-website">contribute on Github</a>.
 	</div>
 
 </div>
