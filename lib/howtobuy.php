@@ -30,7 +30,7 @@ function generate_box($service,$currentCountryCode){
         </h3>
       </a>
     <div class="box-content">
-      <?= $service["content"] ?>
+      <p><?= $service["content"] ?></p>
     </div>
     <div class="left">
       <div class="fb-like" data-href="<?= $service["url"] ?>" data-send="false" data-layout="button_count" data-width="450" data-show-faces="true"></div>
@@ -44,12 +44,36 @@ function generate_box($service,$currentCountryCode){
 
 function generate_country_boxes($data, $currentCountryCode){
   foreach($data as $service){
-    if(! $service["hidden"] && in_array($currentCountryCode, $service["countries"]) && isset($service["location"]) && in_array($currentCountryCode, $service["location"]) ){
+    if (! $service["hidden"] && 
+        (
+          //Supports this country
+          in_array(strtoupper($currentCountryCode), $service["countries"]) ||
+          in_array(strtolower($currentCountryCode), $service["countries"])
+        ) && 
+        isset($service["location"]) && 
+        (
+          //Is in this country
+          in_array(strtoupper($currentCountryCode), $service["location"]) ||
+          in_array(strtolower($currentCountryCode), $service["location"])
+        )
+      ){
       generate_box($service,$currentCountryCode); 
     }
   }
   foreach($data as $service){
-    if(! $service["hidden"] && in_array($currentCountryCode, $service["countries"]) && (! isset($service["location"]) || ! in_array($currentCountryCode, $service["location"]) ) ){
+    if (! $service["hidden"] && 
+        (
+          //Supports this country
+          in_array(strtoupper($currentCountryCode), $service["countries"]) ||
+          in_array(strtolower($currentCountryCode), $service["countries"])
+        ) && 
+        isset($service["location"]) && 
+        (
+          //Is not in this country
+          !in_array(strtoupper($currentCountryCode), $service["location"]) &&
+          !in_array(strtolower($currentCountryCode), $service["location"])
+        )
+      ){
       generate_box($service,$currentCountryCode); 
     }
   }

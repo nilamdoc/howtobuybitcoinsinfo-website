@@ -147,7 +147,7 @@
 			}
 		?>
 
-		<center>Something missing? Send an <a href="mailto:info@howtobuybitcoins.info?body=Please provide: Site name, URL, description, exchange location, supported countries. For countries please use their codes (Like FR, US, CA etc.). Any language OK. Thanks.">update</a> or <a href="https://github.com/jonwaller/howtobuybitcoinsinfo-website">contribute on Github</a>.
+		<!--<center>Something missing? Send an <a href="mailto:info@howtobuybitcoins.info?body=Please provide: Site name, URL, description, exchange location, supported countries. For countries please use their codes (Like FR, US, CA etc.). Any language OK. Thanks.">update</a> or <a href="https://github.com/jonwaller/howtobuybitcoinsinfo-website">contribute on Github</a>.-->
 	</div>
 
 </div>
@@ -176,7 +176,7 @@
 					style="border:0;width:16px;height:16px;vertical-align: top;"
 				/>
 			</a>
-			<a href="http://bitcoineast.com">This is a BitcoinEAST project</a>
+			<a href="http://bitcoineast.com">This is a BitcoinEAST project</a> - <a href="http://howtobuycryptocoins.info/">How to buy cryptocoins / altcoins</a>
 		</div>
 
 	</div>
