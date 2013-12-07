@@ -44,6 +44,16 @@ function generate_box($service,$currentCountryCode){
 
 function generate_country_boxes($data, $currentCountryCode){
   foreach($data as $service){
+    
+    //Remove altcoin-only exchanges
+    if (
+      $service["coins"] && 
+      !in_array(strtoupper("btc"), $service["coins"]) && 
+      !in_array(strtolower("btc"), $service["coins"])
+      ){
+      continue;
+    }
+    
     if (! $service["hidden"] && 
         (
           //Supports this country
@@ -61,6 +71,15 @@ function generate_country_boxes($data, $currentCountryCode){
     }
   }
   foreach($data as $service){
+    //Remove altcoin-only exchanges
+    if (
+      $service["coins"] && 
+      !in_array(strtoupper("btc"), $service["coins"]) && 
+      !in_array(strtolower("btc"), $service["coins"])
+      ){
+      continue;
+    }
+
     if (! $service["hidden"] && 
         (
           //Supports this country

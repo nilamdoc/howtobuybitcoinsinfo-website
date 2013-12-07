@@ -1,3 +1,66 @@
+cryptsy:
+  icon: https://www.cryptsy.com/favicon.ico
+  label: Cryptsy
+  url: https://www.cryptsy.com/
+  content: Trade over 60 different types of cryptocurrencies.
+  coins: [ALF, AMC, ANC, ARG, BQC, BTB, BTE, BTG, BUK, CAP, CGB, CLR, CMC, CRC, CSC, DGC, DMD, ELC, EMD, FRC, FRK, FST, FTC, GDC, GLC, GLD, GLX, HBN, IXC, KGC, LK7, LKY, LTC, MEC, MNC, NBL, NEC, NMC, NRB, NVC, PHS, PPC, PTS, PXC, PYC, QRK, SBC, SPT, SRC, TAG, TEK, TRC, WDC, XJO, XPM, YAC, ZET]
+
+vircurex:
+  icon: /favicon.png
+  label: Vircurex
+  url: https://vircurex.com/main/index
+  content: Cryptocurrency exchange.
+  coins: [ANC, DGC, DVC, FRC, FTC, I0C, IXC, LTC, NMC, NVC, PPC, TRC, WDC, XPM]
+
+coinse:
+  icon: /favicon.png
+  label: Coins-E
+  url: https://www.coins-e.com
+  content: Cryptocurrency exchange.
+  coins: [ALP, AMC, ANC, BET, BQC, CGB, CIN, CRC, DEM, DTC, ELC, ELP, EMD, FRK, FTC, GDC, GLC, KGC, LTC, MEC, NAN, NET, NRB, NVC, ORB, PPC, PTS, QRK, REC, RED, SPT, TAG, TRC, UNO, WDC, XNC, XPM, ZET]
+
+bter:
+  icon: /favicon.png
+  label: BTER
+  url: http://bter.com/
+  content: Cryptocurrency exchange.
+  coins: [BQC, BTB, BUK, CDC, CENT, CMC, CNC, DTC, EXC, FRC, FTC, IFC, LTC, MEC, NEC, NMC, PPC, PTS, QRK, RED, SRC, TAG, TIX, WDC, XPM, YAC, ZCC, ZET]
+
+ibwt:
+  icon: /favicon.png
+  label: IBWT
+  url: https://ibwt.co.uk/
+  content: Cryptocurrency exchange.
+  countries: [uk]
+  location: [uk]
+  coins: [BTC, LTC]
+
+bitbargain:
+  icon: /favicon.png
+  label: BitBargain
+  countries: [uk]
+  location: [uk]
+  url: https://bitbargain.co.uk
+  content:Pay from any major UK bank account. Pay with bank transfer or the Pingit app.
+  coins: [BTC, LTC]
+
+btc38:
+  icon: /favicon.png
+  label: BTC38
+  url: http://www.btc38.com/
+  content: Chinese cryptocurrency exchange.
+  countries: [cn]
+  location: [cn]
+  coins: [BTC, LTC, XPM, BEC, XRP, ZCC, MEC, ANC, PPC, SRC, TAG, PTS, TMC]
+
+buymastercoin:
+  icon: /favicon.png
+  label: BuyMastercoin
+  url: http://www.buymastercoin.com/
+  content: Broker for mastercoin sales.
+  coins: [MSC]
+
+
 mtgox:
   countries: [af, ax, al, dz, as, ad, ao, ai, aq, ag, ar, am, aw, au, at, az, bs, bh, bd, bb, by, be, bz, bj, bm, bt, bo, ba, bw, bv, br, io, bn, bg, bf, bi, kh, cm, ca, cv, ky, cf, td, cl, cn, cx, cc, co, km, cg, cd, ck, cr, ci, hr, cu, cy, cz, dk, dj, dm, do, ec, eg, sv, gq, er, ee, et, fk, fo, fj, fi, fr, gf, pf, tf, ga, gm, ge, de, gh, gi, gr, gl, gd, gp, gu, gt, gg, gn, gw, gy, ht, hm, va, hn, hk, hu, is, in, id, ir, iq, ie, im, il, it, jm, jp, je, jo, kz, ke, ki, kp, kr, kw, kg, la, lv, lb,  ls, lr, ly, li, lt, lu, mo, mk, mg, mw, my, mv, ml, mt, mh, mq, mr, mu, yt, mx, fm, md, mc, mn, me, ms, ma, mz, mm, na, nr, np, nl, an, nc, nz, ni, ne, ng, nu, nf, mp, no, om, pk, pw, ps, pa, pg, py, pe, ph, pn, pl, pt, pr, qa, re, ro, ru, rw, sh, kn, lc, pm, vc, ws, sm, st, sa, sn, rs, sc, sl, sg, sk, si, sb, so, za, gs, es, lk, sd, sr, sj, sz, se, ch, sy, tw, tj, tz, th, tl, tg, tk, to, tt, tn, tr, tm, tc, tv, ug, ua, ae, uk, us, um, uy, uz, vu, ve, vn, vg, vi, wf, eh, ye, zm, zw]
   location: [jp]
@@ -6,6 +69,7 @@ mtgox:
   url: https://mtgox.com/
   content:|
     <p>Well-known bitcoin exchange. Sign up for an account, verify yourself and you can purchase a large number of bitcoins.</p>
+  coins: [btc]
 
 posteb:
   countries: [it]
@@ -15,6 +79,7 @@ posteb:
   url: http://www.posteb.it/
   content:|
     <p>Acquista Bitcoin con Postepay! Il sistema più veloce, economico, sicuro e anonimo per acquistare Bitcoin con Euro in Italia. Tutto automatico.</p>
+  coins: [btc]
 
 blockchain-uk:
   countries: [uk]
@@ -24,6 +89,7 @@ blockchain-uk:
   label: Bank transfer (Blockchain.info)
   content:|
       <p>Pay from any major UK bank account. Transfers bitcoin to your <a href="https://blockchain.info/">Blockchain.info</a> wallet in under 2 hours.</p>
+  coins: [btc]
 
 blockchain:
   countries: [ar, au, at, be, ba, bg, ca, cl, hr, cz, dk, ee, fi, fr, de, gr, hk, id, ie, il, it, lv, lt, lu, mx, nl, nz, no, pl, pt, ro, ru, sk, za, es, se, ch, tw, tr, ua, uk, us]
@@ -33,16 +99,9 @@ blockchain:
   url: https://blockchain.info/wallet/sms-phone-deposits
   content:|
       <p>Works with every mobile phone or landline. No registration required. No credit card required. Can only be used three times a month, but has no maximum purchase limit.</p>
+  coins: [btc]
 
-bitbargain:
-  label: BitBargain.co.uk
-  countries: [uk]
-  location: [uk]
-  icon: /favicon.png
-  label: BitBargain.co.uk
-  url: https://bitbargain.co.uk/
-  content:|
-      <p>Pay from any major UK bank account. Pay with bank transfer or the Pingit app.</p>
+
 
 coinbase:
   label: Coinbase.com
@@ -52,14 +111,7 @@ coinbase:
   url: https://coinbase.com/
   content:|
       <p>A PayPal-style Internet wallet. Connect a US bank account to buy bitcoins.</p>
-
-bitcoin-central:
-  label: BitcoinCentral.net
-  countries: [at, be, bg, cz, dk, ee, fi, fr, gy, pf, de, gr, gp, hu, is, ie, it, lv, li, lt, lu, mt, nl, mq, yt, nc, pl, no, pt, re, ro, bl, pm, sk, si, es, se, gb, wf]
-  icon: /favicon.png
-  url: https://bitcoin-central.net/
-  content:|
-      <p>An exchange based in France which primarily trades between Bitcoins and Euros.</p>
+  coins: [btc]
 
 bitcoinschile:
   label: BitcoinsChile.cl
@@ -69,6 +121,7 @@ bitcoinschile:
   url: http://portal.bitcoinschile.cl/
   content:|
       <p>Buy bitcoins by bank transfer (Chile only), or by Western Digital or Moneygram (US, some of Europe, India, others.).</p>
+  coins: [btc]
 
 rbitcoin:
   label: rBitco.in
@@ -90,7 +143,8 @@ rbitcoin:
         <li>Gives away competitive interest rates on your Bitcoin deposits for you to earn free Bitcoins.</li>
         <li>Gives away Bitcoins for free when you retweet or forward an old message to every new referral / member </li>
       </ul>
-  
+  coins: [btc]
+
 bitcoincomes:
   label: Bitcoin.com.es
   countries: [es]
@@ -99,6 +153,7 @@ bitcoincomes:
   url: http://www.bitcoin.com.es/
   content: |
     <p>Compra y vende Bitcoins con comodidad a traves de transferencia bancaria.</p>
+  coins: [btc]
 
 spendbitcoins:
   label: SpendBitcoins.com
@@ -108,6 +163,7 @@ spendbitcoins:
   url: https://www.spendbitcoins.com/
   content: |
       <p>Buy bitcoin in Australia by over-the-counter transfer.</p>
+  coins: [btc]
 
 bitcointrader:
   label: Bitcointrader
@@ -117,6 +173,7 @@ bitcointrader:
   url: https://www.bitcointrader.com.au
   content: |
       <p>Buy bitcoins with cash deposit in Australia. Easiest way to buy & sell bitcoins in Australia.</p>
+  coins: [btc]
 
 fyb-se:
   label: FYB-SE
@@ -126,6 +183,7 @@ fyb-se:
   url: https://www.fybse.se
   content: |
       <p>Exchange based in Sweden to facilitate buying/selling of Bitcoins with the Swedish Kronor.</p>
+  coins: [btc]
 
 fyb-sg:
   label: FYB-SG
@@ -135,9 +193,10 @@ fyb-sg:
   url: https://www.fybsg.com
   content: |
       <p>Exchange based in Singapore.</p>
+  coins: [btc]
 
 eudemocracia:
-  label: Bitcoin Argentina: Bitcoins Exchange
+  label: Bitcoin Argentina Bitcoins Exchange
   icon: /favicon.png
   location: [ar]
   countries: [ar]
@@ -147,6 +206,7 @@ eudemocracia:
       <hr />
       <p>Mailing list and Facebook Group.</p>
       <p>Bitcoin Argentina is a bilingual community provided by Eudemocracia where their members buy and sell bitcoins.</p>
+  coins: [btc]
 
 coinjarfiller:
   label: CoinJar Filler
@@ -156,6 +216,7 @@ coinjarfiller:
   url: http://www.coinjar.io/filler
   content: |
       <p>CoinJar Filler™ aims to be the best and cheapest way to buy and sell Bitcoin. We charge only 2% for buying and 1.1% for selling. Get Bitcoin in your wallet or cash in your bank account quickly.</p>
+  coins: [btc]
 
 bitxoin:
   label: bitXoin
@@ -165,6 +226,7 @@ bitxoin:
   url: https://www.bitXoin.com
   content: |
       <p>Using bitXoin makes buying bitcoins using cash as easy as 1 - 2 - 3. Forget long wait-times and non-responsive transacting by using our easy to use brokerage platform, and making cash deposits over the counter.</p> 
+  coins: [btc]
 
 bittylicious:
   label: Bittylicious
@@ -174,6 +236,7 @@ bittylicious:
   url: https://bittylicious.com/
   content: |
       <p>Enter a Bitcoin address, send an instant UK bank transfer payment and the Bitcoins are transferred automatically.</p> 
+  coins: [btc]
 
 bitinnovate:  
   label: BitInnovate.com
@@ -182,6 +245,7 @@ bitinnovate:
   url: https://bitinnovate.com/
   content: |
       <p>Buy bitcoin in New Zealand and Australia over-the-counter transfer.</p>
+  coins: [btc]
 
 okpay:
   label: OKPay.com
@@ -190,6 +254,7 @@ okpay:
   url: https://www.okpay.com/en/company/news/bitcoin-okpay.html
   content: |
       <p>Large electronic currency trading and exchange site.</p>
+  coins: [btc]
 
 therocktrading:
   label: TheRockTrading.com
@@ -198,6 +263,7 @@ therocktrading:
   url: https://therocktrading.com/
   content: |
       <p>Trade e-currencies (such as Bitcoin and Lindens) from anywhere in Europe. (Supports SEPA bank transfers)</p>
+  coins: [btc]
 
 bitstamp:
   label: BitStamp.net
@@ -206,6 +272,7 @@ bitstamp:
   url: https://www.bitstamp.net
   content:|
       <p>Buy and sell bitcoins with other users through an online marketplace.</p>
+  coins: [btc]
 
 btc-e:
   label: BTC-e.com
@@ -215,6 +282,7 @@ btc-e:
   url: https://btc-e.com/
   content:|
       <p>Market for buying and selling bitcoin for the UK and Russia.</p>
+  coins: [BTC,LTC,NMC,NVC,TRC,PPC,FTC]
 
 bitcoinde:
   label: Bitcoin.de
@@ -224,6 +292,7 @@ bitcoinde:
   url: https://www.bitcoin.de/
   content:|
       <p>Market for buying and selling bitcoin. Accepts SEPA bank transfers from anywhere in Europe.</p>
+  coins: [btc]
 
 bitcoinnordic:
   countries: [af, ax, al, dz, as, ad, ao, ai, aq, ag, ar, am, aw, au, at, az, bs, bh, bd, bb, by, be, bz, bj, bm, bt, bo, ba, bw, bv, br, io, bn, bg, bf, bi, kh, cm, ca, cv, ky, cf, td, cl, cn, cx, cc, co, km, cg, cd, ck, cr, ci, hr, cu, cy, cz, dk, dj, dm, do, ec, eg, sv, gq, er, ee, et, fk, fo, fj, fi, fr, gf, pf, tf, ga, gm, ge, de, gh, gi, gr, gl, gd, gp, gu, gt, gg, gn, gw, gy, ht, hm, va, hn, hk, hu, is, in, id, ir, iq, ie, im, il, it, jm, jp, je, jo, kz, ke, ki, kp, kr, kw, kg, la, lv, lb,  ls, lr, ly, li, lt, lu, mo, mk, mg, mw, my, mv, ml, mt, mh, mq, mr, mu, yt, mx, fm, md, mc, mn, me, ms, ma, mz, mm, na, nr, np, nl, an, nc, nz, ni, ne, ng, nu, nf, mp, no, om, pk, pw, ps, pa, pg, py, pe, ph, pn, pl, pt, pr, qa, re, ro, ru, rw, sh, kn, lc, pm, vc, ws, sm, st, sa, sn, rs, sc, sl, sg, sk, si, sb, so, za, gs, es, lk, sd, sr, sj, sz, se, ch, sy, tw, tj, tz, th, tl, tg, tk, to, tt, tn, tr, tm, tc, tv, ug, ua, ae, uk, us, um, uy, uz, vu, ve, vn, vg, vi, wf, eh, ye, zm, zw]
@@ -232,6 +301,7 @@ bitcoinnordic:
   url: https://www.bitcoinnordic.com/
   content:|
     <p>On Bitcoin Nordic you can purchase bitcoins using international bank transfers from any country and CashU prepaid cards sold in North Africa and the Middle East.<br /><br />In addition, UKash vouchers sold in any country including Central and South America can be exchanged to CashU and then used to purchase bitcoins on Bitcoin Nordic.</p>
+  coins: [btc]
 
 exante:
   countries: [af, ax, al, dz, as, ad, ao, ai, aq, ag, ar, am, aw, au, at, az, bs, bh, bd, bb, by, be, bz, bj, bm, bt, bo, ba, bw, bv, br, io, bn, bg, bf, bi, kh, cm, ca, cv, ky, cf, td, cl, cn, cx, cc, co, km, cg, cd, ck, cr, ci, hr, cu, cy, cz, dk, dj, dm, do, ec, eg, sv, gq, er, ee, et, fk, fo, fj, fi, fr, gf, pf, tf, ga, gm, ge, de, gh, gi, gr, gl, gd, gp, gu, gt, gg, gn, gw, gy, ht, hm, va, hn, hk, hu, is, in, id, ir, iq, ie, im, il, it, jm, jp, je, jo, kz, ke, ki, kp, kr, kw, kg, la, lv, lb,  ls, lr, ly, li, lt, lu, mo, mk, mg, mw, my, mv, ml, mt, mh, mq, mr, mu, yt, mx, fm, md, mc, mn, me, ms, ma, mz, mm, na, nr, np, nl, an, nc, nz, ni, ne, ng, nu, nf, mp, no, om, pk, pw, ps, pa, pg, py, pe, ph, pn, pl, pt, pr, qa, re, ro, ru, rw, sh, kn, lc, pm, vc, ws, sm, st, sa, sn, rs, sc, sl, sg, sk, si, sb, so, za, gs, es, lk, sd, sr, sj, sz, se, ch, sy, tw, tj, tz, th, tl, tg, tk, to, tt, tn, tr, tm, tc, tv, ug, ua, ae, uk, us, um, uy, uz, vu, ve, vn, vg, vi, wf, eh, ye, zm, zw]
@@ -247,6 +317,7 @@ exante:
          <li>Fund manages wallet security</li>
        </ul>
     </p>
+  coins: [btc]
 
 mercadobitcoin:
   label: MercadoBitcoin.com.br
@@ -256,6 +327,7 @@ mercadobitcoin:
   icon: http://www.mercadobitcoin.com.br/static/ico/favicon.ico
   content:|
       <p>Buy and sell bitcoins in Brazil.</p>
+  coins: [btc]
 
 bbbitcoins:
   label: BBBitcoins.com.br
@@ -265,6 +337,7 @@ bbbitcoins:
   url: http://bbbitcoins.com.br
   content:|
       <p>Buy and sell bitcoins in Brazil.</p>
+  coins: [btc]
 
 btradeaustralia:
   label: Bit Trade Australia
@@ -273,6 +346,7 @@ btradeaustralia:
   icon: /favicon.png
   url: https://www.btradeaustralia.com/
   content: Australian exchange.
+  coins: [btc]
 
 buybitcoinaustralia:
   label: BuyBitcoinAustralia
@@ -282,6 +356,7 @@ buybitcoinaustralia:
   url: http://buybitcoinaustralia.com.au
   content: |
       <p>Australian exchange.</p>
+  coins: [btc]
 
 bitcoin4australia:
   label: Bitcoin4Australia
@@ -291,6 +366,7 @@ bitcoin4australia:
   url: http://www.Bitcoin4Australia.com
   content: |
       <p>Australian Bitcoin Exchange supplying Bitcoin for cash over the counter deposit at the Major Australian Banks.</p>
+  coins: [btc]
 
 bitmarket:
   label: BitMarket.co
@@ -300,6 +376,7 @@ bitmarket:
   url: https://bitmarket.co
   content: |
       <p>Exchange based in Colombia.</p>
+  coins: [btc]
 
 btcmarkets:
   label: BtcMarkets.net
@@ -308,6 +385,7 @@ btcmarkets:
   icon: /favicon.png
   url: https://www.btcmarkets.net
   content: Bitcoin exchange.
+  coins: [btc]
 
 btc-dealer:
   label: BTC-Dealer
@@ -318,6 +396,7 @@ btc-dealer:
       <p>Payment methods accepted:<br />
       Credit card via Liqpay
       </p>
+  coins: [btc]
 
 
 quickbitcoin:
@@ -327,6 +406,7 @@ quickbitcoin:
   icon: /favicon.png
   url: https://quickbitcoin.co.uk/
   content: <p>At QuickBitcoin.co.uk you can buy Bitcoins for UK bank transfers. Average transaction time is under 10 minutes.</p>
+  coins: [btc]
 
 bitcoinsnorge:
   label: BitcoinsNorge 
@@ -335,6 +415,7 @@ bitcoinsnorge:
   icon: /favicon.png
   url: http://www.bitcoinsnorge.no/
   content: <p>Vi selger Bitcoins mot et lite provisjonstillegg.</p>
+  coins: [btc]
 
 coinrepublic:
   label: Coin Republic 
@@ -343,6 +424,7 @@ coinrepublic:
   icon: /favicon.png
   url: http://coinrepublic.com/buy-sell-bitcoins-singapore/
   content: <p>We decided to start Selling and Buying Bitcoins directly!</p>
+  coins: [btc]
 
 asianexgen:
   label: Asia Nexgen 
@@ -351,6 +433,7 @@ asianexgen:
   icon: /favicon.png
   url: https://anx.hk/
   content: <p>ASIA NEXGEN provides an easy, secure, and affordable marketplace for you to buy and sell Bitcoins.</p>
+  coins: [btc]
 
 bitcoinbrokers:
   label: Bitcoin Brokers
@@ -359,6 +442,7 @@ bitcoinbrokers:
   icon: /favicon.png
   url: http://www.bitcoin-brokers.org/
   content: <p>Bitcoin-Brokers brings together bitcoin buyers and bitcoin sellers and creates the framework for a safe, easy, and convenient experience for both parties to either buy or sell bitcoin.</p>
+  coins: [btc]
 
 buysellbitcoin:
   label: BuySellBitco.in
@@ -367,6 +451,7 @@ buysellbitcoin:
   icon: /favicon.png
   url: https://www.buysellbitco.in/
   content: <p>BuySellBitco.in India online! NEFT, cheque supported!!!</p>
+  coins: [btc]
 
 bitcoini:
   label: Bitcoini
@@ -375,6 +460,7 @@ bitcoini:
   icon: /favicon.png
   url: https://bitcoini.com/en/
   content: <p>Our primary goal is to make the exchange of bitcoins with Western Union and MoneyGram, fast, cheap and secure.</p>
+  coins: [btc]
 
 btcturk:
   label: BTCTurk
@@ -383,6 +469,7 @@ btcturk:
   icon: /favicon.png
   url: http://btcturk.com/
   content: <p>Türk Lirası ile kolayca Bitcoin alıp satabileceğiniz ilk ve tek adres.</p>
+  coins: [btc]
 
 bitcoiniacs:
   label: Bitcoiniacs
@@ -391,6 +478,7 @@ bitcoiniacs:
   icon: /favicon.png
   url: http://www.bitcoiniacs.com/
   content: <p>Bitcoiniacs - The Bitcoin Store is Vancouver's first physical bitcoin exchange. Our mission is to make the process of buying and selling bitcoins simple, safe, and secure for everyone.</p>
+  coins: [btc]
 
 bitsofgold:
   label: BitsOfGold
@@ -400,6 +488,7 @@ bitsofgold:
   url: https://www.bitsofgold.co.il
   content:|
       <p>Buy and Sell bitcoin in Israel, for Israeli Shekel.</p>
+  coins: [btc]
 
 bitcoinaustralia:
   label: Bitcoin Australia
@@ -408,6 +497,7 @@ bitcoinaustralia:
   icon: /favicon.png
   url: https://www.getbitcoin.com.au/
   content: Providing an exchange service to convert Australian dollars to bitcoins. Low exchange rates and fair commission.
+  coins: [btc]
 
 coinmkt:
   label: CoinMkt
@@ -416,6 +506,7 @@ coinmkt:
   icon: /favicon.png
   url: https://coinmkt.com/
   content: Bitcoin exchange.
+  coins: [btc]
 
 campbx:
   label: CampBX
@@ -424,6 +515,7 @@ campbx:
   icon: /favicon.png
   url: https://campbx.com/
   content: Bitcoin exchange.
+  coins: [btc]
 
 Bitonic:
   label: Bitonic
@@ -432,6 +524,7 @@ Bitonic:
   icon: /favicon.png
   url: http://bitonic.nl/
   content: Bitcoin exchange. iDeal when you buy Bitcoins, and bank transfers when you sell Bitcoins.
+  coins: [btc]
 
 Bittiraha:
   label: Bittiraha.fi
@@ -440,6 +533,7 @@ Bittiraha:
   icon: /favicon.png
   url: https://bittiraha.fi/
   content: Bitcoin exchange. Provide services to anyone that has a bank account capable of SEPA transfers.
+  coins: [btc]
 
 
 
@@ -450,6 +544,7 @@ localbitcoins:
   url: https://localbitcoins.com/
   content: |
       <p>In-person trading. Find someone in your local area who trades bitcoins for cash, and arrange to meet them in person.</p>
+  coins: [btc]
 
 tradebitcoin:
   label: TradeBitcoin.com
@@ -458,6 +553,7 @@ tradebitcoin:
   url: http://www.tradebitcoin.com/
   content: |
       <p>In-person trading. Find someone in your local area who trades bitcoins for cash, and arrange to meet them in person.</p>
+  coins: [btc]
 
 bitcoinit:
   label: Bitcoin Wiki's OTC
@@ -466,6 +562,7 @@ bitcoinit:
   url: https://en.bitcoin.it/wiki/Bitcoin_OTC
   content:|
       <p>Over-the-counter exchange. Find a direct seller online to buy and sell bitcoin with.</p>
+  coins: [btc]
 
 bitcoinary:
   label: Bitcoinary.com's OTC
@@ -473,6 +570,7 @@ bitcoinary:
   icon: /favicon.png
   content: |
       <p>Over-the-counter exchange. Find a direct seller online to buy and sell bitcoin with.</p>
+  coins: [btc]
 
 bitcointalk-otc:
   label: BitcoinTalk Forum's OTC
@@ -482,7 +580,8 @@ bitcointalk-otc:
   url: https://bitcointalk.org/index.php?board=53.0
   content:|
       <p>Over-the-counter exchange. Find a direct seller online to buy and sell bitcoin with.</p>
-      
+  coins: [btc]
+
 cavirtex:
   countries: [ca]
   location: [ca]
@@ -491,6 +590,7 @@ cavirtex:
   url: https://www.cavirtex.com/
   content:|
     <p>Canadian exchange offering both cash deposit and EFT direct transfer with Canadian banks.</p>
+  coins: [btc]
 
 kapiton:
   countries: [se]
@@ -500,7 +600,8 @@ kapiton:
   url: https://kapiton.se/
   content:|
     <p>This exchange is registered, but not regulated by, the financial inspector in Sweden.</p>
-    
+  coins: [btc]
+
 quickbt:
   countries: [ca]
   location: [ca]
@@ -509,7 +610,7 @@ quickbt:
   url: https://quickbt.com/
   content:|
     <p>Instant Bitcoin purchase/payment using your Interac debit card.</p>
-
+  coins: [btc]
 virwox:
   countries: [af, ax, al, dz, as, ad, ao, ai, aq, ag, ar, am, aw, au, at, az, bs, bh, bd, bb, by, be, bz, bj, bm, bt, bo, ba, bw, bv, br, io, bn, bg, bf, bi, kh, cm, ca, cv, ky, cf, td, cl, cn, cx, cc, co, km, cg, cd, ck, cr, ci, hr, cu, cy, cz, dk, dj, dm, do, ec, eg, sv, gq, er, ee, et, fk, fo, fj, fi, fr, gf, pf, tf, ga, gm, ge, de, gh, gi, gr, gl, gd, gp, gu, gt, gg, gn, gw, gy, ht, hm, va, hn, hk, hu, is, in, id, ir, iq, ie, im, il, it, jm, jp, je, jo, kz, ke, ki, kp, kr, kw, kg, la, lv, lb, ls, lr, ly, li, lt, lu, mo, mk, mg, mw, my, mv, ml, mt, mh, mq, mr, mu, yt, mx, fm, md, mc, mn, me, ms, ma, mz, mm, na, nr, np, nl, an, nc, nz, ni, ne, ng, nu, nf, mp, no, om, pk, pw, ps, pa, pg, py, pe, ph, pn, pl, pt, pr, qa, re, ro, ru, rw, sh, kn, lc, pm, vc, ws, sm, st, sa, sn, rs, sc, sl, sg, sk, si, sb, so, za, gs, es, lk, sd, sr, sj, sz, se, ch, sy, tw, tj, tz, th, tl, tg, tk, to, tt, tn, tr, tm, tc, tv, ug, ua, ae, uk, us, um, uy, uz, vu, ve, vn, vg, vi, wf, eh, ye, zm, zw]
   location: [at]
