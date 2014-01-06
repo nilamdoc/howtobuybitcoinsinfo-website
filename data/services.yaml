@@ -707,3 +707,13 @@ btcchina:
   content:|
     <p> A major Bitcoin exchange based in China.</p>
   coins: [btc]
+
+giftcarddrainer:
+  label: GiftCard Drainer
+  countries: [us]
+  location: [us]
+  icon: https://giftcarddrainer.com/gcdc/resources/images/favicon.ico
+  url: https://giftcarddrainer.com
+  content:|
+    <p>GiftCard Drainer provides a way to buy Bitcoins quickly. Submit a Visa, MasterCard, American Express or Discover gift card and receive payment in Bitcoins immediately or within 24 hours.</p>
+  coins: [btc]
