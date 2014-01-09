@@ -64,7 +64,7 @@
 
 <div id="header">
 	<div style="float: right">
-		<a href="mailto:info@howtobuybitcoins.info?body=Please provide: Site name, URL, description, exchange location, supported countries. For countries please use their codes (Like FR, US, CA etc.). Any language OK. Thanks.">Corrections / Updates?</a> |
+		<a href="mailto:info@howtobuybitcoins.info?body=If possible, please send a pull request. If you're not sure how to do that, feel free to add your update below:%0D%0D- Site name: %0D- URL: %0D- Info (English): %0D- Info (Local language): %0D- Location (2-letter code): %0D- Supported countries (2-letter codes): %0D- Cryptocoins supported (3-letter codes, e.g. BTC): %0D%0DThanks.">Corrections / Updates?</a> | 
 		<a href="https://github.com/jonwaller/howtobuybitcoinsinfo-website">Contribute on Github</a>
 	</div>  
 
@@ -147,7 +147,6 @@
 			}
 		?>
 
-		<!--<center>Something missing? Send an <a href="mailto:info@howtobuybitcoins.info?body=Please provide: Site name, URL, description, exchange location, supported countries. For countries please use their codes (Like FR, US, CA etc.). Any language OK. Thanks.">update</a> or <a href="https://github.com/jonwaller/howtobuybitcoinsinfo-website">contribute on Github</a>.-->
 	</div>
 
 </div>
