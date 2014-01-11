@@ -1,4 +1,3 @@
-
 cryptsy:
   icon: https://www.cryptsy.com/favicon.ico
   label: Cryptsy
@@ -736,4 +735,14 @@ giftcarddrainer:
   url: https://giftcarddrainer.com
   content:|
     <p>GiftCard Drainer provides a way to buy Bitcoins quickly. Submit a Visa, MasterCard, American Express or Discover gift card and receive payment in Bitcoins immediately or within 24 hours.</p>
+  coins: [btc]
+
+coinrnr:
+  label: CoinRnr
+  countries: [us]
+  location: [us]
+  icon: /favicon.ico
+  url: https://coinrnr.com
+  content:|
+    <p>CoinRnr allows users to purchase bitcoins with cash deposits at major US banks or sell bitcoin and receive bank transfers. Most orders are processed within 15 minutes of payment confirmation.</p>
   coins: [btc]
