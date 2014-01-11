@@ -684,8 +684,7 @@ dagensia:
   location: [cz]
   icon: https://dagensia.eu/wp-content/themes/ecardone/images/favicon.png
   url: https://dagensia.eu/
-  content:|
-   <p>Dagensia allows you to Buy and Sell Bitcoins and to store Bitcoins securely. You can get your first Bitcoin today with Sofort Uberweisung or Bank wire, or you can start accepting Bitcoins directly into EUR or USD balance and ATM card.</p>
+  content: Dagensia allows you to Buy and Sell Bitcoins and to store Bitcoins securely. You can get your first Bitcoin today with Sofort Uberweisung or Bank wire, or you can start accepting Bitcoins directly into EUR or USD balance and ATM card.
   coins: [btc]
 
 bitquick:
@@ -694,8 +693,7 @@ bitquick:
   location: [us]
   icon: https://www.bitquick.co/favicon.ico
   url: https://bitquick.co/
-  content:|
-   <p> BitQuick.co helps connect Bitcoin buyers and sellers, directly to their own bank accounts. Buy Bitcoins instantly with cash deposit or SEPA transfer from sellers with bitcoin already in escrow for a low 2% fee (0% to sell) </p>
+  content: BitQuick.co helps connect Bitcoin buyers and sellers, directly to their own bank accounts. Buy Bitcoins instantly with cash deposit or SEPA transfer from sellers with bitcoin already in escrow for a low 2% fee (0% to sell).
   coins: [btc]
 
 justcoin:
@@ -704,8 +702,7 @@ justcoin:
   location: [no]
   icon: https://justcoin.com/favicon.png
   url: https://www.justcoin.com
-  content:|
-   <p> A Bitcoin currency exchange from Norway that supports EUR and NOK, as well as Litecoin and Ripple. </p>
+  content: A Bitcoin currency exchange from Norway that supports EUR and NOK, as well as Litecoin and Ripple.
   coins: [btc]
 
 privatbit:
@@ -714,7 +711,7 @@ privatbit:
   location: [ua]
   icon: /favicon.png
   url: https://privatbit.com/
-  content: <p>Bitcoin exchange.</p>
+  content: Bitcoin exchange.
   coins: [btc]
 
 btcchina:
@@ -723,8 +720,7 @@ btcchina:
   icon: https://btcchina.com/img/favicon.ico
   label: BTCChina
   url: https://btcchina.com/
-  content:|
-    <p> A major Bitcoin exchange based in China.</p>
+  content: A major Bitcoin exchange based in China.
   coins: [btc]
 
 giftcarddrainer:
@@ -733,8 +729,7 @@ giftcarddrainer:
   location: [us]
   icon: https://giftcarddrainer.com/gcdc/resources/images/favicon.ico
   url: https://giftcarddrainer.com
-  content:|
-    <p>GiftCard Drainer provides a way to buy Bitcoins quickly. Submit a Visa, MasterCard, American Express or Discover gift card and receive payment in Bitcoins immediately or within 24 hours.</p>
+  content: GiftCard Drainer provides a way to buy Bitcoins quickly. Submit a Visa, MasterCard, American Express or Discover gift card and receive payment in Bitcoins immediately or within 24 hours.
   coins: [btc]
 
 coinrnr:
@@ -743,6 +738,14 @@ coinrnr:
   location: [us]
   icon: /favicon.ico
   url: https://coinrnr.com
-  content:|
-    <p>CoinRnr allows users to purchase bitcoins with cash deposits at major US banks or sell bitcoin and receive bank transfers. Most orders are processed within 15 minutes of payment confirmation.</p>
+  content: CoinRnr allows users to purchase bitcoins with cash deposits at major US banks or sell bitcoin and receive bank transfers. Most orders are processed within 15 minutes of payment confirmation.
+  coins: [btc]
+
+quickbtaustralia:
+  countries: [au]
+  location: [au]
+  icon: https://quickbt.com/favicon.ico
+  label: QuickBT
+  url: https://quickbt.com/
+  content: Instant Bitcoin purchase/payment using your POLi enabled bank account.</p>
   coins: [btc]
