@@ -114,9 +114,6 @@ posteb:
     <p>Acquista Bitcoin con Postepay! Il sistema più veloce, economico, sicuro e anonimo per acquistare Bitcoin con Euro in Italia. Tutto automatico.</p>
   coins: [btc]
 
-
-
-
 coinbase:
   label: Coinbase.com
   countries: [us]
