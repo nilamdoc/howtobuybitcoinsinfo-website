@@ -87,12 +87,19 @@
 
 	<div id="warningarea">
 		<div class="warningBox">
-			<h3 class="box-title">Warning: Please be careful with your money. 
+			<h3 class="box-title">
+				<span class="titleBox en">Warning: Please be careful with your money.</span>
+				<span class="titleBox cn">Warning: Please be careful with your money.</span>
+				<span class="titleBox es">Warning: Please be careful with your money.</span>
+				<span class="titleBox jp">ご注意ください。</span>
+				<span class="titleBox fr">Warning: Please be careful with your money.</span>
+				<span class="titleBox it">Attenzione: Si prega di fare attenzione ai propri soldi.</span>
 				<img style="float:right;padding:2px" src="img/miniflags/us.png" onclick="showLang('en')" title="English" /> 
 				<img style="float:right;padding:2px" src="img/miniflags/cn.png" onclick="showLang('cn')" title="中文" /> 
 				<img style="float:right;padding:2px" src="img/miniflags/es.png" onclick="showLang('es')" title="Español" /> 
 				<img style="float:right;padding:2px" src="img/miniflags/jp.png" onclick="showLang('jp')" title="日本語" /> 
 				<img style="float:right;padding:2px" src="img/miniflags/fr.png" onclick="showLang('fr')" title="Français" />
+				<img style="float:right;padding:2px" src="img/miniflags/it.png" onclick="showLang('it')" title="Italiano" />
 			</h3>
 			<div class="box-content">
 				<p>
@@ -134,7 +141,14 @@
 						<br/><br/>
 						Les services bitcoins ne sont pas hautement régulés, donc un service peut continuer à fonctionner même lorsqu'il est largement admis qu'il n'est pas sécurisé ou malhonnête. En outre, les pages web les recommandant (comme celle-ci) peuvent ne pas être mises à jour régulièrement. (Cependant, je précise que ce site est <a href="https://github.com/jonwaller/howtobuybitcoinsinfo-website">open-source</a>, et que j'essaie de répondre rapidement aux <a href="mailto:info@howtobuybitcoins.info">emails</a>.)
 					</small>
-
+					<small class="langBox it">
+						Quando inviate del denaro ad un cambio, vi state fidando dell'operatore che non rubi i fondi, e che il loro sito sia sicuro.
+						<br/><br/>
+						Si consiglia di acquisire l'identità reale dell'operatore e di assicurarsi che sia disponibile la ricorsa sufficiente.
+						Lo scambio o l'immagazzinamento di una notevole quantità di fondi con terzi non è consigliato.
+						<br/><br/>
+						I servizi Bitcoin non sono altamente regolati quindi un servizio può continuare a funzionare anche se è opinione diffusa che sia insicuro o disonesto. Inoltre, le pagine web che li raccomandano (come questa) potrebbero non essere aggiornate regolarmente. (Tuttavia, detto questo, il sito è open-source, e si cerca di rispondere rapidamente alle e-mail.)
+					</small>
 				</p>
 			</div>
 		</div>
@@ -184,6 +198,15 @@
 <div id="heading">
 	<h1><a href="/">How to buy<br>bitcoins in</a></h1>
 	<input type="text" id="searchbox" onClick="this.select();" name="country" value="<? if($currentcountry){ echo $countrynames[$currentcountry]; }?>" placeholder="Enter country name" />
+	<?if(!$currentcountry){?>
+		<a href="/us.html"><img src="img/miniflags/us.png" title="USA" /></a>
+		<a href="/uk.html"><img src="img/miniflags/uk.png" title="UK" /></a>
+		<a href="/cn.html"><img src="img/miniflags/cn.png" title="中国" /></a>
+		<a href="/es.html"><img src="img/miniflags/es.png" title="España" /></a>
+		<a href="/jp.html"><img src="img/miniflags/jp.png" title="日本" /></a>
+		<a href="/fr.html"><img src="img/miniflags/fr.png" title="France" /></a>
+		<a href="/it.html"><img src="img/miniflags/it.png" title="Italia" /></a>
+	<?}?>
 </div>
 
 <script type="text/javascript">
@@ -207,6 +230,8 @@
 	function showLang(langCode){
 		$(".langBox").hide();
 		$(".langBox."+langCode).show();
+		$(".titleBox").hide();
+		$(".titleBox."+langCode).show();
 	}
 
 	$(document).ready(function(){
@@ -214,6 +239,7 @@
 		var currentCountryCode="<?=$currentcountry?>";
 
 		$(".langBox").hide();
+		$(".titleBox").hide();
 		
 		if (currentCountryCode=="jp") {
 			$(".langBox.jp").show();
@@ -223,8 +249,24 @@
 			$(".langBox.es").show();
 		}else if (currentCountryCode=="fr") {
 			$(".langBox.fr").show();
+		}else if (currentCountryCode=="it") {
+			$(".langBox.it").show();
 		}else{      
 			$(".langBox.en").show();
+		}
+
+		if (currentCountryCode=="jp") {
+			$(".titleBox.jp").show();
+		}else if (currentCountryCode=="cn") {
+			$(".titleBox.cn").show();
+		}else if (currentCountryCode=="es") {
+			$(".titleBox.es").show();
+		}else if (currentCountryCode=="fr") {
+			$(".titleBox.fr").show();
+		}else if (currentCountryCode=="it") {
+			$(".titleBox.it").show();
+		}else{      
+			$(".titleBox.en").show();
 		}
 
 		var countries = [];
