@@ -746,3 +746,16 @@ quickbtaustralia:
   url: https://quickbt.com/
   content: Instant Bitcoin purchase/payment using your POLi enabled bank account.</p>
   coins: [btc]
+
+bitcointrust:
+  countries: [us]
+  location: [us]
+  icon: /favicon.ico
+  label: The Bitcoin Investment Trust (BIT)
+  url: http://www.bitcointrust.co/?utm_source=howtobuybitcoins&utm_medium=banner&utm_campaign=Howtobuybitcoins
+  content: |
+    <ul>
+      <li>The Bitcoin Investment Trust (BIT) is a private, open-ended trust that is invested exclusively in bitcoin and derives its value solely from the price of bitcoin. It enables investors to gain exposure to the price movement of bitcoin without the challenges of buying, storing, and safekeeping bitcoins. </li><br />
+      <li>Launched in 2013, the BIT is sponsored by Alternative Currency Asset Management (ACAM), a wholly-owned subsidiary of SecondMarket Holdings, Inc. and an affiliate of SecondMarket, Inc. (custodian, marketing and distribution partner). ACAM has engaged leading service providers Ernst & Young (auditor), Sidley Austin LLP (legal counsel), Continental Stock Transfer & Trust (transfer and administrative agent), and Corporation Service Company (trustee).</li>
+    </ul>
+  coins: [btc]
