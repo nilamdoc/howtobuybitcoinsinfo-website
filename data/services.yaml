@@ -649,6 +649,7 @@ virwox:
   url: https://www.virwox.com
   content:|
     <p>VirWoX is currently the only exchange where you can buy BTC with PayPal and Credit Cards (among other payment methods).</p>
+    <p><a href="http://99bitcoins.com/buying-bitcoins-with-paypal-a-practical-guide/">How to buy Bitcoins with VirWox.</a></p>
   coins: [btc]
 
 vaultofsatoshi:
