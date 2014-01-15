@@ -81,7 +81,7 @@ bitnz:
   label: bitNZ
   url: https://bitnz.com/
   content:|
-    <p>Bitcoin exchange for New Zealand market. Deposit funds over the counter (Westpac).</p>
+    <p>The simple New Zealand Bitcoin exchange. </p>
   coins: [btc]
 
 coined:
@@ -725,8 +725,8 @@ privatbit:
   location: [ua]
   icon: /favicon.png
   url: https://privatbit.com/
-  content: Bitcoin exchange.
-  coins: [btc]
+  content: PrivatBit is a company that brings fast and reliable money exchange service. At the present moment we work with Bitcoin, Litecoin, Ripple, Perfect Money, OKPAY, Egopay, W1, Visa/Mastercard/Maestro, Webmoney, Liqpay, Moneygram/Western Union, Qiwi, Skrill, Paypal, Paxum, PrivatBank UA, UK cash deposit GBP, Brazilian local bank and cash in BRL, Ecoin, Russian and Ukrainian Banks and many others
+  coins: [btc, ltc, xrp]
 
 btcchina:
   countries: [cn, tw]
@@ -775,4 +775,211 @@ bitcointrust:
       <li>The Bitcoin Investment Trust (BIT) is a private, open-ended trust that is invested exclusively in bitcoin and derives its value solely from the price of bitcoin. It enables investors to gain exposure to the price movement of bitcoin without the challenges of buying, storing, and safekeeping bitcoins. </li><br />
       <li>Launched in 2013, the BIT is sponsored by Alternative Currency Asset Management (ACAM), a wholly-owned subsidiary of SecondMarket Holdings, Inc. and an affiliate of SecondMarket, Inc. (custodian, marketing and distribution partner). ACAM has engaged leading service providers Ernst & Young (auditor), Sidley Austin LLP (legal counsel), Continental Stock Transfer & Trust (transfer and administrative agent), and Corporation Service Company (trustee).</li>
     </ul>
+  coins: [btc]
+
+bitplaatsbelgium:
+  label: Bitplaats Belgium
+  countries: [be]
+  location: [nl]
+  icon: https://www.bitplaats.be/favicon.ico
+  url: https://www.bitplaats.be/ 
+  content: With our service people can buy bitcoins instantly, the whole process form paying to receiving takes max 5 minutes 
+  coins: [btc]
+
+bitplaatsnetherlands:
+  label: Bitplaats Netherlands
+  countries: [nl]
+  location: [nl]
+  icon: https://www.bitplaats.nl/favicon.ico
+  url: https://www.bitplaats.nl/
+  content: With our service people can buy bitcoins instantly, the whole process form paying to receiving takes max 5 minutes 
+  coins: [btc]
+
+coinmama:
+  label: CoinMama
+  countries: [us, uk, au, fr, ca, jp, cn, be, cy, cz, dk, eg, fi, gr, hk, in, is, it, mx, nl, nz, no, pa, pu, pl, pt, se, ch, es]
+  location: [gi]
+  icon: https://www.coinmama.com/favicon.ico
+  url: https://www.coinmama.com/
+  content:  The easiest and fastest way to buy virtual currency Worldwide! CoinMama allows you to buy Bitcoins and Litecoins with your credit card, Western Union, MoneyGram, Perfect Money and more!
+  coins: [btc, ltc]
+
+firstbitcoinstockexchange:
+  label: The First Bitcoin Stock Exchange
+  countries: [hk, sg, cn]
+  location: [hk]
+  icon: https://www.1bse.com/themes/fbse/favicon.ico
+  url: https://www.1bse.com/
+  content: Hong Kong bitcoin stock exchange. BTC/HKD, BTC/LTC,   BTC/NMC, BTC/CNY, BTC/SGD, BTC/USD, BTC/EUR
+  coins: [btc, ltc, nmc]
+
+lakebtc:
+  label: LakeBTC
+  countries: [us, cn]
+  location: [us, cn]
+  icon: https://www.lakebtc.com/favicon.ico
+  url: https://www.lakebtc.com/
+  content: Started by Wall Street veterans, LakeBTC is a professional bitcoin exchange dedicated to high security, high reliability, and high liquidity. Currently support USD (US Dollars) and CNY (Chinese Yuan). Customer service is available via telephone, facebook, twitter, instant messaging and weibo. 
+  coins: [btc]
+
+xmlgold:
+  label: XMLGold
+  countries: [ad, ae, af, ag, ai, al, am, an, ao, aq, ar, as, at, au, aw, ax, az, ba, bb, bd, be, bf, bg, bh, bi, bj, bl, bm, bn, bo, br, bs, bt, bv, bw, by, bz, ca, cc, cd, cf, cg, ch, ci, ck, cl, cm, cn, co, cr, cu, cv, cx, cy, cz, de, do, dj, dk, dm, dz, ec, ee, eg, eh, er, es, et, fi, fj, fk, fm, fo, fr, ga, gd, ge, gf, gg, gh, gi, gl, gm, gn, gp, gq, gr, gs, gt, gu, gw, gy, hk, hm, hn, hr, ht, hu, id, ie, in, il, im, io, iq, ir, is, it, je, jm, jo, jp, ke, kg, kh, ki, km, kn, kp, kr, kw, ky, kz, la, lb, lc, li, lk, lr, ls, lt, lu, lv, ly, ma, mc, md, me, mf, mg, mh, mk, ml, mm, mn, mo, mp, mq, mr, ms, mt, mu, mv, mw, mx, my, mz, na, nc, ne, nf, ng, ni, nl, no, np, nr, nu, nz, om, pa, pe, pf, pg, ph, pk, pl, pm, pn, pr, ps, pt, pw, py, qa, re, ro, rs, ru, rw, sa, sb, sc, sd, se, sg, sh, si, sj, sk, sl, sm, sn, so, sr, st, sv, sy, sz, tc, td, tf, tg, th, tj, tk, tl, tm, tn, to, tr, tt, tv, tw, tz, ua, ug, uk, um, uy, uz, va, vc, ve, vg, vi, vn, vu, wf, ws, ye, yt, za, zm, zw]
+  location: [sc]
+  icon: http://www.xmlgold.eu/assets/d67a5f04/img/favicon.ico
+  url: http://www.xmlgold.eu/
+  content: XMLGold - Our service is meant for those who want to safely and profitably change an e-currency.Thanks to us, you will be able to exchange Perfect Money, LiqPay, EgoPay, Bank wire, Bitcoin, HDMoney, Payeer, Paymer, Paypal, Pecunix, WebMoney and many more coming...
+  coins: [btc]
+
+bitcoinindonesia:
+  label: Bitcoin Indonesia
+  countries: [id]
+  location: [id]
+  icon: https://www.bitcoin.co.id/favicon.ico
+  url: https://www.bitcoin.co.id/
+  content: You can easily buy/sell bitcoin with Indonesia Currency, Rupiah. We accept bank transfer from BCA and Bank Mandiri. 
+  coins: [btc]
+
+bitmorecoin:
+  label: bitmorecoin
+  countries: [uk]
+  location: [uk]
+  icon: /favicon.png
+  url: http://www.bitmorecoin.com/
+  content: One of the difficulties people who want to buy Bitcoin regularly face, is the several day time period that it takes before the buyer sees their Bitcoin in their personal wallet. Since we are based in the UK, we can have your Bitcoin to you within the hour.  
+  coins: [btc]
+
+bitquickindia:
+  label: BitQuick.in
+  countries: [in]
+  location: [in]
+  icon: https://www.bitquick.in/favicon.ico 
+  url: https://bitquick.in/ 
+  content:  BitQuick.in helps connect Bitcoin buyers and sellers, directly to their own bank accounts. Buy Bitcoins and Sell Bitcoins easy in India! Get Bitcoins instantly or cash same day! NEFT/RTGS, IMPS and cash deposit accepted. Low 1% fee to buy, 0% to sell.
+  coins: [btc]
+
+buybitcoinsnz:
+  label: Buy Bitcoins NZ
+  countries: [nz]
+  location: [nz]
+  icon: /favicon.png
+  url: http://buybitcoin.co.nz/
+  content:  Place to buy bitcoins online in NZ
+  coins: [btc]
+
+coinloft:
+  label: Coinloft
+  countries: [au]
+  location: [au]
+  icon: https://www.coinloft.com.au/wp-content/uploads/2013/12/favicon.ico
+  url: http://www.coinloft.com.au/
+  content:  Coin Loft enables purchase of Bitcoin with Australian Dollar via bank deposit
+  coins: [btc]
+
+ice3x:
+  label: ICE3X
+  countries: [za]
+  location: [za]
+  icon: https://ice3x.com/favicon.ico
+  url: https://ice3x.com/
+  content:  South African Exchange, supporting: Bitcoin (BTC) - Litecoin (LTC) - Rand (ZAR). 
+  coins: [btc, ltc]
+
+belgacoin:
+  label: Belgacoin
+  countries: [fi, at, be, bg, es , hr, cy, cz, dk, ee, fi, fr, gf, de, gi, gr, gp, hu, is, ie, it, lv, li, lt, lu, mt, mq, yt, mc, nl, no, pl, pt, re, ro, bl, mf, pm, sk, si, es, se, ch, uk]
+  location: [be]
+  icon: http://www.belgacoin.com/favicon.ico
+  url: http://www.belgacoin.com/
+  content:  The easiest way to buy bitcoin online in European SEPA area. No registration required! 
+  coins: [btc, ltc]
+
+bitcoinsforsale:
+  label: Bitcoins For Sale
+  countries: [af, ax, al, dz, as, ad, ao, ai, aq, ag, ar, am, aw, au, at, az, bs, bh, bd, bb, by, be, bz, bj, bm, bt, bo, ba, bw, bv, br, io, bn, bg, bf, bi, kh, cm, ca, cv, ky, cf, td, cl, cn, cx, cc, co, km, cg, cd, ck, cr, ci, hr, cu, cy, cz, dk, dj, dm, do, ec, eg, sv, gq, er, ee, et, fk, fo, fj, fi, fr, gf, pf, tf, ga, gm, ge, de, gh, gi, gr, gl, gd, gp, gu, gt, gg, gn, gw, gy, ht, hm, va, hn, hk, hu, is, in, id, ir, iq, ie, im, il, it, jm, jp, je, jo, kz, ke, ki, kp, kr, kw, kg, la, lv, lb,  ls, lr, ly, li, lt, lu, mo, mk, mg, mw, my, mv, ml, mt, mh, mq, mr, mu, yt, mx, fm, md, mc, mn, me, ms, ma, mz, mm, na, nr, np, nl, an, nc, nz, ni, ne, ng, nu, nf, mp, no, om, pk, pw, ps, pa, pg, py, pe, ph, pn, pl, pt, pr, qa, re, ro, ru, rw, sh, kn, lc, pm, vc, ws, sm, st, sa, sn, rs, sc, sl, sg, sk, si, sb, so, za, gs, es, lk, sd, sr, sj, sz, se, ch, sy, tw, tj, tz, th, tl, tg, tk, to, tt, tn, tr, tm, tc, tv, ug, ua, ae, uk, us, um, uy, uz, vu, ve, vn, vg, vi, wf, eh, ye, zm, zw]
+  location: [us]
+  icon: /favicon.png
+  url: http://bitcoinsforsale.net/
+  content:  BitcoinsForSale.net is a new way to discover and shop for Bitcoins and others Crypto-currencies. We are dedicated to finding, curating, and selling affordable Bitcoins from eBay. 
+  coins: [btc]
+
+clevercoin:
+  label: CleverCoin
+  countries: [nl]
+  location: [nl]
+  icon: http://www.clevercoin.net/favicon.ico
+  url: http://www.clevercoin.net/
+  content:  CleverCoin is de nieuwe Nederlandse Bitcoin Exchange.
+  coins: [btc]
+
+bitcoinbrokerssouthafrica:
+  label: Bitcoin Brokers South Africa 
+  countries: [za]
+  location: [za]
+  icon: /favicon.png
+  url: http://bitcoinbroker.co.za/
+  content:  Bitcoin Brokers supplies Bitcoins to the South African market via cash or bank transfer. The aim is to make buying Bitcoin quick and easy without the need for technical know-how. We offer bulk discounts and secure the exchange rate on payment. 
+  coins: [btc]
+
+aaronbuysgold:
+  label: Aaron Buys Gold Ltd
+  countries: [ca]
+  location: [ca]
+  icon: http://aaronbuysgold.com/wp-content/uploads/2014/01/favicon.ico
+  url: http://aaronbuysgold.com/edmontonbitcoin/
+  content:  Aaron Buys Gold Ltd is the Edmonton Areas first in-store bitcoin exchange and the first bitcoin exchange that also sells precious metals. Buy Bitcoin safe and secure in store with professional service and advice. Trade bitcoin for Precious metals. 
+  coins: [btc]
+
+shopmoney:
+  label: ShopMoney
+  countries: [lt]
+  location: [lt]
+  icon: http://shopmoney.lt/images/favicon.png
+  url: http://shopmoney.lt/
+  content:  ShopMoney is a p2p exchange where people are able to acquire Bitcoins fast and smooth. You use search button to find traders and their rates. To prevent fraud, exchange has rating systems as well. Payment methods cover major Lithuanian banks and payment processors. Hence trading experience is great. 
+  coins: [btc]
+
+bit121:
+  label: bit121
+  countries: [uk]
+  location: [uk]
+  icon: https://bit121.co.uk/css/images/favicon.ico
+  url: https://bit121.co.uk/
+  content:  UK based bitcoin exchange with UK banking! 0.25% fees for everyone. 
+  coins: [btc]
+
+bit4coin:
+  label: bit4coin
+  countries: [fi, at, be, bg, es , hr, cy, cz, dk, ee, fi, fr, gf, de, gi, gr, gp, hu, is, ie, it, lv, li, lt, lu, mt, mq, yt, mc, nl, no, pl, pt, re, ro, bl, mf, pm, sk, si, es, se, ch, uk]
+  location: [nl]
+  icon: https://bit4coin.net/favicon.ico
+  url: https://bit4coin.net/
+  content:  Buy bitcoins with bit4coin gift vouchers for yourself, or as a gift! 
+  coins: [btc]
+
+coinx:
+  label: CoinX
+  countries: [us]
+  location: [us]
+  icon: https://www.coinx.com/Content/images/favicon.ico
+  url: https://www.coinx.com/
+  content:  The CoinX digital currency exchange registered with the US Department of Treasury’s Financial Crimes Enforcement Network, complies with Anti-Money Laundering (AML) and Know Your Customer (KYC) policies, and holds money transmitter licenses in multiple states. The exchange offers fast and secure buying, selling and trading of Bitcoins. Currently supports Bitcoin to USD with support for more currencies planned.
+  coins: [btc]
+
+bitkonan:
+  label: BitKonan
+  countries: [af, ax, al, dz, as, ad, ao, ai, aq, ag, ar, am, aw, au, at, az, bs, bh, bd, bb, by, be, bz, bj, bm, bt, bo, ba, bw, bv, br, io, bn, bg, bf, bi, kh, cm, ca, cv, ky, cf, td, cl, cn, cx, cc, co, km, cg, cd, ck, cr, ci, hr, cu, cy, cz, dk, dj, dm, do, ec, eg, sv, gq, er, ee, et, fk, fo, fj, fi, fr, gf, pf, tf, ga, gm, ge, de, gh, gi, gr, gl, gd, gp, gu, gt, gg, gn, gw, gy, ht, hm, va, hn, hk, hu, is, in, id, ir, iq, ie, im, il, it, jm, jp, je, jo, kz, ke, ki, kp, kr, kw, kg, la, lv, lb,  ls, lr, ly, li, lt, lu, mo, mk, mg, mw, my, mv, ml, mt, mh, mq, mr, mu, yt, mx, fm, md, mc, mn, me, ms, ma, mz, mm, na, nr, np, nl, an, nc, nz, ni, ne, ng, nu, nf, mp, no, om, pk, pw, ps, pa, pg, py, pe, ph, pn, pl, pt, pr, qa, re, ro, ru, rw, sh, kn, lc, pm, vc, ws, sm, st, sa, sn, rs, sc, sl, sg, sk, si, sb, so, za, gs, es, lk, sd, sr, sj, sz, se, ch, sy, tw, tj, tz, th, tl, tg, tk, to, tt, tn, tr, tm, tc, tv, ug, ua, ae, uk, us, um, uy, uz, vu, ve, vn, vg, vi, wf, eh, ye, zm, zw]
+  location: [hr]
+  icon: https://bitkonan.com/favicon.png
+  url: https://bitkonan.com/
+  content:  BitKonan is a Bitcoin exchange based in Split, Croatia
+  coins: [btc]
+
+brascoins:
+  label: Brascoins
+  countries: [br]
+  location: [br]
+  icon: http://www.brascoins.com/favicon.ico
+  url: http://www.brascoins.com/
+  content:  Buy and sell bitcoins in Brazil at the best price in reals (R$)  
   coins: [btc]
