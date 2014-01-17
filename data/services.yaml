@@ -750,7 +750,7 @@ coinrnr:
   label: CoinRnr
   countries: [us]
   location: [us]
-  icon: /favicon.png
+  icon: https://coinrnr.com/favicon.ico
   url: https://coinrnr.com
   content: CoinRnr allows users to purchase bitcoins with cash deposits at major US banks or sell bitcoin and receive bank transfers. Most orders are processed within 15 minutes of payment confirmation.
   coins: [btc]
