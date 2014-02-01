@@ -993,11 +993,11 @@ brascoins:
   content:  Buy and sell bitcoins in Brazil at the best price in reals (R$)  
   coins: [btc]
 
-CoinCafe:
+coincafe:
   icon: https://getcoincafe.com/img/favicon.png
   label: CoinCafe
-  countries: US
-  location: US
+  countries: [us]
+  location: [us]
   url: https://www.getcoincafe.com/
   content: |
       <p>The fastest New York based exchange. No waiting, no hassles.</p>
