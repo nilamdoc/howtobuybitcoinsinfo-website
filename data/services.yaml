@@ -26,6 +26,15 @@ bter:
   content: Cryptocurrency exchange.
   coins: [BQC, BTB, BUK, CDC, CENT, CMC, CNC, DTC, EXC, FRC, FTC, IFC, LTC, MEC, NEC, NMC, PPC, PTS, QRK, RED, SRC, TAG, TIX, WDC, XPM, YAC, ZCC, ZET]
 
+bittybot:
+  icon: http://bittybot.co.uk/wp-content/themes/bittybot/favicon.ico
+  label: BittyBot
+  countries: [uk]
+  location: [uk]
+  url: http://bittybot.co.uk
+  content: Monitor and compare Bitcoin sellers/prices in the UK.
+  coins: [BTC]
+
 ibwt:
   icon: /favicon.png
   label: IBWT
