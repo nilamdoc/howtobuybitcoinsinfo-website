@@ -64,6 +64,8 @@
 
 <div id="header">
 	<div style="float: right">
+		<a href="http://howtobuycryptocoins.info/">Buy Cryptocoins</a>
+		<a href="https://bitcoin.org/en/choose-your-wallet">Get a Wallet</a>
 		<a href="mailto:info@howtobuybitcoins.info?body=If possible, please send a pull request. If you're not sure how to do that, feel free to add your update below:%0D%0D- Site name: %0D- URL: %0D- Info (English): %0D- Info (Local language): %0D- Location (2-letter code): %0D- Supported countries (2-letter codes): %0D- Cryptocoins supported (3-letter codes, e.g. BTC): %0D%0DThanks.">Corrections / Updates?</a> | 
 		<a href="https://github.com/jonwaller/howtobuybitcoinsinfo-website/blob/master/data/services.yaml">Contribute on Github</a>
 	</div>  
