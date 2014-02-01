@@ -322,6 +322,5 @@
 
 </script>
 
-<script type="text/javascript" src="//s3.amazonaws.com/scripts.hellobar.com/f1058c21a90112c4762aee6ae0922be4a7b586c2.js"></script>
 </body>
 </html>
