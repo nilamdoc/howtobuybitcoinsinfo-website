@@ -5,6 +5,13 @@ cryptsy:
   content: Trade over 60 different types of cryptocurrencies.
   coins: [ALF, AMC, ANC, ARG, BQC, BTB, BTE, BTG, BUK, CAP, CGB, CLR, CMC, CRC, CSC, DGC, DMD, ELC, EMD, FRC, FRK, FST, FTC, GDC, GLC, GLD, GLX, HBN, IXC, KGC, LK7, LKY, LTC, MEC, MNC, NBL, NEC, NMC, NRB, NVC, PHS, PPC, PTS, PXC, PYC, QRK, SBC, SPT, SRC, TAG, TEK, TRC, WDC, XJO, XPM, YAC, ZET]
 
+cointouch:
+  icon: http://www.cointouch.com/assets/images/favicon.png
+  label: CoinTouch
+  url: http://www.cointouch.com/
+  content: Find friends of friends that trade bitcoins
+  coins: [BTC]
+
 vircurex:
   icon: /favicon.png
   label: Vircurex
