@@ -1004,3 +1004,12 @@ coincafe:
       <p>Buy Bitcoins with cash, wire transfer, check, or debit card.</p>
       <p>Find us on Twitter here: <a href="https://twitter.com/getcoincafe">@GetCoinCafe</></p>
   coins: [BTC]
+  
+  bitcoin-indonesia:
+  label: Indo-Bitcoin.com
+  countries: [id]
+  location: [id]
+  icon: https://www.indo-bitcoin.com/favicon.ico
+  url: https://www.indo-bitcoin.com
+  content: Buy and sell Bitcoin with lowest fees in Indonesia. Bank transfer accepted from Mandiri, BCA, BNI and BRI.  
+  coins: [btc]
