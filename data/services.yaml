@@ -93,6 +93,16 @@ bitnz:
     <p>The simple New Zealand Bitcoin exchange. </p>
   coins: [btc]
 
+bitx:
+  label: BitX
+  countries: [za]
+  location: [za]
+  icon: https://bitx.co.za/favicon.ico
+  url: https://bitx.co.za
+  content:|
+      <p>Buy, sell, store and spend Bitcoin in South Africa. BitX is the oldest and largest Bitcoin exchange in Africa.</p>
+  coins: [btc]
+
 coined:
   countries: [nz]
   location: [nz]
