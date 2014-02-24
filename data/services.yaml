@@ -370,7 +370,7 @@ xcfd:
        </ul>
     </p>
   coins: [btc]
-  
+
 mercadobitcoin:
   label: MercadoBitcoin.com.br
   url: http://www.mercadobitcoin.com.br
@@ -808,7 +808,7 @@ bitplaatsbelgium:
   location: [nl]
   icon: https://www.bitplaats.be/favicon.ico
   url: https://www.bitplaats.be/ 
-  content: With our service people can buy bitcoins instantly, the whole process form paying to receiving takes max 5 minutes 
+  content: With our service people can buy bitcoins instantly, the whole process form paying to receiving takes max 5 minutes
   coins: [btc]
 
 bitplaatsnetherlands:
@@ -817,7 +817,7 @@ bitplaatsnetherlands:
   location: [nl]
   icon: https://www.bitplaats.nl/favicon.ico
   url: https://www.bitplaats.nl/
-  content: With our service people can buy bitcoins instantly, the whole process form paying to receiving takes max 5 minutes 
+  content: With our service people can buy bitcoins instantly, the whole process form paying to receiving takes max 5 minutes
   coins: [btc]
 
 coinmama:
@@ -862,7 +862,7 @@ bitcoinindonesia:
   location: [id]
   icon: https://www.bitcoin.co.id/favicon.ico
   url: https://www.bitcoin.co.id/
-  content: You can easily buy/sell bitcoin with Indonesia Currency, Rupiah. We accept bank transfer from BCA and Bank Mandiri. 
+  content: You can easily buy/sell bitcoin with Indonesia Currency, Rupiah. We accept bank transfer from BCA and Bank Mandiri.
   coins: [btc]
 
 bitmorecoin:
@@ -979,7 +979,7 @@ bit4coin:
   location: [nl]
   icon: https://bit4coin.net/favicon.ico
   url: https://bit4coin.net/
-  content:  Buy bitcoins with bit4coin gift vouchers for yourself, or as a gift! 
+  content:  Buy bitcoins with bit4coin gift vouchers for yourself, or as a gift!
   coins: [btc]
 
 coinx:
@@ -1020,12 +1020,12 @@ coincafe:
       <p>Buy Bitcoins with cash, wire transfer, check, or debit card.</p>
       <p>Find us on Twitter here: <a href="https://twitter.com/getcoincafe">@GetCoinCafe</></p>
   coins: [BTC]
-  
-  bitcoin-indonesia:
+
+bitcoin-indonesia:
   label: Indo-Bitcoin.com
   countries: [id]
   location: [id]
   icon: https://www.indo-bitcoin.com/favicon.ico
   url: https://www.indo-bitcoin.com
-  content: Buy and sell Bitcoin with lowest fees in Indonesia. Bank transfer accepted from Mandiri, BCA, BNI and BRI.  
+  content: Buy and sell Bitcoin with lowest fees in Indonesia. Bank transfer accepted from Mandiri, BCA, BNI and BRI.
   coins: [btc]

@@ -55,6 +55,7 @@ function generate_country_boxes($data, $currentCountryCode){
     }
     
     if (! $service["hidden"] && 
+        isset($service["countries"]) &&
         (
           //Supports this country
           in_array(strtoupper($currentCountryCode), $service["countries"]) ||
@@ -81,6 +82,7 @@ function generate_country_boxes($data, $currentCountryCode){
     }
 
     if (! $service["hidden"] && 
+        isset($service["countries"]) &&
         (
           //Supports this country
           in_array(strtoupper($currentCountryCode), $service["countries"]) ||
