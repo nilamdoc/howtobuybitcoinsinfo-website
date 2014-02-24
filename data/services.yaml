@@ -1029,3 +1029,12 @@ bitcoin-indonesia:
   url: https://www.indo-bitcoin.com
   content: Buy and sell Bitcoin with lowest fees in Indonesia. Bank transfer accepted from Mandiri, BCA, BNI and BRI.
   coins: [btc]
+btcsm:
+  countries: [al, dz, ar, am, au, at, az, bh, by, be, bo, br, bg, kh, ca, cv, cl, cn, co, cr, cy, cz, dk, do, ec, eg, sv, ee, fi, fr, ge, de, gh, gr, gt, hn, hk, hu, in, id, iq, ie, il, it, jo, kz, ke, kw, kg, lv, lb, lt, lu, mk, my, mx, me, ma, nl, nz, ni, ng, no, om, pa, py, pe, pl, pt, qa, ro, sa, rs, si, za, es, sd, se, ch, tj, th, tn, tr, ug, ua, gb, uy, ve, ye]
+  location: [il]
+  icon: http://sms.btc-sm.com/favicon.ico
+  label: btcsm
+  url: http://sms.btc-sm.com/
+  content:|
+    <p>Using this service you can buy around 5000 Satoshi ( 0.00005 BTC ) via sms. The price contain current BTC exchange rate and mobile operator fee. </p>
+  coins: [btc]
