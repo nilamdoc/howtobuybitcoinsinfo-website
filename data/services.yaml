@@ -133,6 +133,15 @@ coinbase:
       <p>A PayPal-style Internet wallet. Connect a US bank account to buy bitcoins.</p>
   coins: [btc]
 
+bitcoin-central:
+  countries: [at, be, bg, cz, dk, ee, fi, fr, gy, pf, de, gr, gp, hu, is, ie, it, lv, li, lt, lu, mt, nl, mq, yt, nc, pl, no, pt, re, ro, bl, pm, sk, si, es, se, gb, wf]
+  location: [fr]
+  icon: /favicon.png
+  label: BitcoinCentral.net
+  url: https://bitcoin-central.net/
+  content: An exchange based in France which primarily trades between Bitcoins and Euros.
+  coins: [btc]
+
 bitcoinschile:
   label: BitcoinsChile.cl
   countries: [cl, us, uk, au, ca, fr, de, in, it, mx, ph, ru, es, at, be, dk, ee, fi, gr, ie, lu, nl, no, pl, pt, se, ch]
