@@ -88,11 +88,13 @@ function generate_country_boxes($data, $currentCountryCode){
           in_array(strtoupper($currentCountryCode), $service["countries"]) ||
           in_array(strtolower($currentCountryCode), $service["countries"])
         ) && 
-        isset($service["location"]) && 
         (
-          //Is not in this country
-          !in_array(strtoupper($currentCountryCode), $service["location"]) &&
-          !in_array(strtolower($currentCountryCode), $service["location"])
+          !isset($service["location"]) || 
+          (
+            //Is not in this country
+            !in_array(strtoupper($currentCountryCode), $service["location"]) &&
+            !in_array(strtolower($currentCountryCode), $service["location"])
+          )
         )
       ){
       generate_box($service,$currentCountryCode); 
