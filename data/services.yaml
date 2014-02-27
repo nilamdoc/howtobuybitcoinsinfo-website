@@ -1,3 +1,12 @@
+bitstamp:
+  label: BitStamp.net
+  icon: https://www.bitstamp.net/s/icons/favicon.ico
+  countries: [us, ru, nl, fi, pl, cz, it, si, li, es, be, bg, cz, dk, de, ee, ie, el, es, fr, it, cy, lv, lt, lu, hu, mt, nl, at, pl, pt, ro, si, sk, fi, se, uk]
+  url: https://www.bitstamp.net
+  content:|
+      <p>Buy and sell bitcoins with other users through an online marketplace.</p>
+  coins: [btc]
+
 cryptsy:
   icon: https://www.cryptsy.com/favicon.ico
   label: Cryptsy
@@ -299,15 +308,6 @@ therocktrading:
   url: https://therocktrading.com/
   content: |
       <p>Trade e-currencies (such as Bitcoin and Lindens) from anywhere in Europe. (Supports SEPA bank transfers)</p>
-  coins: [btc]
-
-bitstamp:
-  label: BitStamp.net
-  icon: https://www.bitstamp.net/s/favicon.ico
-  countries: [us, ru, nl, fi, pl, cz, it, si, li, es, be, bg, cz, dk, de, ee, ie, el, es, fr, it, cy, lv, lt, lu, hu, mt, nl, at, pl, pt, ro, si, sk, fi, se, uk]
-  url: https://www.bitstamp.net
-  content:|
-      <p>Buy and sell bitcoins with other users through an online marketplace.</p>
   coins: [btc]
 
 btc-e:
