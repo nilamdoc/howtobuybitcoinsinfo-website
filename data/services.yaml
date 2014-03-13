@@ -26,6 +26,13 @@ coincafe:
       <p>Find us on Twitter here: <a href="https://twitter.com/getcoincafe">@GetCoinCafe</></p>
   coins: [BTC]
 
+coinsph:
+  icon: http://coins.ph/static/img/favicon.png
+  label: CoinsPH
+  url: http://coins.ph/
+  content: Trade Bitcoins Safe and Easy in Asia.
+  coins: [BTC]
+
 cointouch:
   icon: http://www.cointouch.com/assets/images/favicon.png
   label: CoinTouch
