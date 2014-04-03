@@ -899,7 +899,8 @@ bitquickindia:
   location: [in]
   icon: https://www.bitquick.in/favicon.ico 
   url: https://bitquick.in/ 
-  content:  BitQuick.in helps connect Bitcoin buyers and sellers, directly to their own bank accounts. Buy Bitcoins and Sell Bitcoins easy in India! Get Bitcoins instantly or cash same day! NEFT/RTGS, IMPS and cash deposit accepted. Low 1% fee to buy, 0% to sell.
+  content:  |
+   <p> BitQuick.in helps connect Bitcoin buyers and sellers, directly to their own bank accounts. Buy Bitcoins and Sell Bitcoins easy in India! Get Bitcoins instantly or cash same day! NEFT/RTGS, IMPS and cash deposit accepted. Low 1% fee to buy, 0% to sell. </p>
   coins: [btc]
 
 buybitcoinsnz:
@@ -926,7 +927,9 @@ ice3x:
   location: [za]
   icon: https://ice3x.com/favicon.ico
   url: https://ice3x.com/
-  content:  South African Exchange, supporting: Bitcoin (BTC) - Litecoin (LTC) - Rand (ZAR). 
+  content:  |
+    <p>South Africa’s Bitcoin and Litecoin Exchange. Offering trading in South African Rand.</p>
+    <p>The only exchange in Africa to offer Bitcoin and Litecoin, you can buy, sell and store Bitcoin with ice3x.com</p>
   coins: [btc, ltc]
 
 belgacoin:
@@ -1017,7 +1020,7 @@ bitkonan:
   icon: https://bitkonan.com/favicon.png
   url: https://bitkonan.com/
   content:  BitKonan is a Bitcoin exchange based in Split, Croatia
-  coins: [btc]
+  coins: [btc, ltc]
 
 brascoins:
   label: Brascoins
@@ -1059,9 +1062,92 @@ coinclutch:
   coins: [btc,ltc,ppc,doge,xpm,qrk,ftc]
 
 HardBlock:
+  label: HardBlock
   countries: [au]
   location: [au]
   icon: https://www.hardblock.net/public/images/favIcon.png
   url: https://www.hardblock.net
   content:  The Safe, Fast and Cheap way to buy and sell Bitcoin in Australia. Buy over the counter with cash deposit.
   coins: [btc]
+
+bitgo:
+  label: Bitgo
+  countries: [il]
+  location: [il]
+  icon: /favicon.png
+  url: http://www.bitgo.co.il
+  content: |
+    <p>Bitgo is an Israeli gate to the Bitcoin world.
+    Currently we offer the easiest, safest and fastest way to buy and sell bitcoins to individuals in Israel.
+    We are developing a clearance service for physical and internet-based businesses, and our goal is to become worldwide Bitcoin clearance system suppliers.</p>
+    <p>חברת ביטגו טק בע"מ הינה חברה ישראלית שהוקמה בשנת 2013 ע"י שלושה יזמים ישראלים ששמו לעצמם למטרה להפיץ את הביטקוין בישראל, ולתת מענה קל ונוח לצורך ההולך וגובר של הקהל הישראלי לקנות ולמכור ביטקוינים.</p>
+  coins: [btc]
+
+cryptocash:
+  label: CryptoCash
+  countries: [vn]
+  location: [vn]
+  icon: /favicon.png
+  url: http://www.crypto-cash.co
+  content: |
+    <p>Vietnamese</p>
+  coins: [btc]
+
+cashintocoins:
+  label: Cash Into Coins
+  countries: [us]
+  location: [us]
+  icon: /favicon.png
+  url: https://cashintocoins.com/
+  content: |
+    Deposit Cash, Get Bitcoins - The United States' largest cash for bitcoin service.
+  coins: [btc]
+
+bitxnamibia:
+  label: BitX Namibia
+  countries: [na]
+  location: [na]
+  icon: /favicon.png
+  url: https://bitx.com.na/
+  content: |
+    BitX makes Bitcoin easy. Buy and Sell Bitcoins in Namibia on a local trusted exchange.
+  coins: [btc]
+
+btcxindia:
+  label: BTCXINDIA
+  countries: [in]
+  location: [ap]
+  icon: /favicon.png
+  url: https://btcxindia.com
+  content: |
+    BTCXINDIA is an Indian based bitcoin exchange for buying and selling of Bitcoins.BTCXINDIA is partnerd with white label robust technology exchaange of Buttercoin to provide safety and security of funds.
+  coins: [BTC,LTC,NVC,NMC]
+
+Koinim:
+  label: Koinim
+  countries: [tr]
+  location: [tr]
+  icon: /favicon.png
+  url: https://koinim.com
+  content: |
+    <p>Exchange Bitcoin/Litecoin with Turkish Lira</p>
+    <p>Türkiye’nin ilk ve tek Bitcoin/Litecoin platformu</p>
+  coins: [BTC,LTC]
+
+bitcoinchange:
+  label: BitcoinChange
+  countries: [bz, us, ru, nl, fi, pl, cz, it, si, li, es, be, bg, cz, dk, de, ee, ie, el, es, fr, it, cy, lv, lt, lu, hu, mt, nl, at, pl, pt, ro, si, sk, fi, se, uk]
+  location: [bz]
+  icon: /favicon.png
+  url: https://www.bitcoinchange.com
+  content: Exchange in Belize.
+  coins: [BTC]
+
+itbit:
+  label: itBit
+  countries: [sg]
+  location: [sg]
+  icon: /favicon.png
+  url: https://www.itbit.com
+  content: itBit is an institutionally funded global virtual currencies exchange based in Singapore. We match buyers and sellers of Bitcoins vs USD, SGD, and EUR.
+  coins: [BTC]
