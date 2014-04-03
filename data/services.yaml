@@ -358,7 +358,8 @@ bitcoinnordic:
   label: Bitcoin Nordic
   url: https://www.bitcoinnordic.com/
   content:|
-    <p>On Bitcoin Nordic you can purchase bitcoins using international bank transfers from any country and CashU prepaid cards sold in North Africa and the Middle East.<br /><br />In addition, UKash vouchers sold in any country including Central and South America can be exchanged to CashU and then used to purchase bitcoins on Bitcoin Nordic.</p>
+    <p>On Bitcoin Nordic you can purchase bitcoins using international bank transfers from any country and CashU prepaid cards sold in North Africa and the Middle East.</p>
+    <p>In addition, UKash vouchers sold in any country including Central and South America can be exchanged to CashU and then used to purchase bitcoins on Bitcoin Nordic.</p>
   coins: [btc]
 
 exante:
@@ -750,7 +751,9 @@ privatbit:
   location: [ua]
   icon: /favicon.png
   url: https://privatbit.com/
-  content: PrivatBit is a company that brings fast and reliable money exchange service. At the present moment we work with Bitcoin, Litecoin, Ripple, Perfect Money, OKPAY, Egopay, W1, Visa/Mastercard/Maestro, Webmoney, Liqpay, Moneygram/Western Union, Qiwi, Skrill, Paypal, Paxum, PrivatBank UA, UK cash deposit GBP, Brazilian local bank and cash in BRL, Ecoin, Russian and Ukrainian Banks and many others
+  content: |
+    <p>PrivatBit is a company that brings fast and reliable money exchange service.</p>
+    <p>At the present moment we work with Bitcoin, Litecoin, Ripple, Perfect Money, OKPAY, Egopay, W1, Visa/Mastercard/Maestro, Webmoney, Liqpay, Moneygram/Western Union, Qiwi, Skrill, Paypal, Paxum, PrivatBank UA, UK cash deposit GBP, Brazilian local bank and cash in BRL, Ecoin, Russian and Ukrainian Banks and many others.</p>
   coins: [btc, ltc, xrp]
 
 btcchina:
