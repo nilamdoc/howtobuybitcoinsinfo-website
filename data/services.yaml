@@ -1059,3 +1059,11 @@ coinclutch:
     <p>Your Online Concierge For Purchasing Cryptocurrency!</p>
     <p>Instantly purchase Bitcoin, Litecoin, Dogecoin and many more. All simply and easily with a bank account.</p>
   coins: [btc,ltc,ppc,doge,xpm,qrk,ftc]
+
+HardBlock:
+  countries: [au]
+  location: [au]
+  icon: https://www.hardblock.net/public/images/favIcon.png
+  url: https://www.hardblock.net
+  content:  The Safe, Fast and Cheap way to buy and sell Bitcoin in Australia. Buy over the counter with cash deposit.
+  coins: [btc]
