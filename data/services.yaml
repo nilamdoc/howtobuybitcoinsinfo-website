@@ -1038,3 +1038,14 @@ btcsm:
   content:|
     <p>Using this service you can buy around 5000 Satoshi ( 0.00005 BTC ) via sms. The price contain current BTC exchange rate and mobile operator fee. </p>
   coins: [btc]
+
+coinclutch:
+  label: CoinClutch
+  countries: [au,ca]
+  location: [ca]
+  icon: https://coinclutch.com/favicon.ico
+  url: https://coinclutch.com/
+  content:|
+    <p>Your Online Concierge For Purchasing Cryptocurrency!</p>
+    <p>Instantly purchase Bitcoin, Litecoin, Dogecoin and many more. All simply and easily with a bank account.</p>
+  coins: [btc,ltc,ppc,doge,xpm,qrk,ftc]
