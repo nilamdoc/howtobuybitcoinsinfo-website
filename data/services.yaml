@@ -461,8 +461,6 @@ btcmarkets:
   content: Bitcoin exchange.
   coins: [btc]
 
-
-
 btc-dealer:
   label: BTC-Dealer
   countries: [af, ax, al, dz, as, ad, ao, ai, aq, ag, ar, am, aw, au, at, az, bs, bh, bd, bb, by, be, bz, bj, bm, bt, bo, ba, bw, bv, br, io, bn, bg, bf, bi, kh, cm, ca, cv, ky, cf, td, cl, cn, cx, cc, co, km, cg, cd, ck, cr, ci, hr, cu, cy, cz, dk, dj, dm, do, ec, eg, sv, gq, er, ee, et, fk, fo, fj, fi, fr, gf, pf, tf, ga, gm, ge, de, gh, gi, gr, gl, gd, gp, gu, gt, gg, gn, gw, gy, ht, hm, va, hn, hk, hu, is, in, id, ir, iq, ie, im, il, it, jm, jp, je, jo, kz, ke, ki, kp, kr, kw, kg, la, lv, lb, ls, lr, ly, li, lt, lu, mo, mk, mg, mw, my, mv, ml, mt, mh, mq, mr, mu, yt, mx, fm, md, mc, mn, me, ms, ma, mz, mm, na, nr, np, nl, an, nc, nz, ni, ne, ng, nu, nf, mp, no, om, pk, pw, ps, pa, pg, py, pe, ph, pn, pl, pt, pr, qa, re, ro, ru, rw, sh, kn, lc, pm, vc, ws, sm, st, sa, sn, rs, sc, sl, sg, sk, si, sb, so, za, gs, es, lk, sd, sr, sj, sz, se, ch, sy, tw, tj, tz, th, tl, tg, tk, to, tt, tn, tr, tm, tc, tv, ug, ua, ae, uk, us, um, uy, uz, vu, ve, vn, vg, vi, wf, eh, ye, zm, zw]
@@ -473,7 +471,6 @@ btc-dealer:
       Credit card via Liqpay
       </p>
   coins: [btc]
-
 
 quickbitcoin:
   label: QuickBitcoin 
@@ -721,7 +718,7 @@ inrbtc:
 
 kraken:
   label: Kraken
-  countries: [be bg cz dk de ee ie el es fr it cy lv lt lu hu mt nl at pl pt ro si sk fi se uk us]
+  countries: [be, bg, cz, dk, de, ee, ie, el, es, fr, it, cy, lv, lt, lu, hu, mt, nl, at, pl, pt, ro, si, sk, fi, se, uk, us]
   location: [uk]
   icon: https://www.kraken.com/img/favicon.png
   url: https://www.kraken.com/
@@ -934,7 +931,7 @@ ice3x:
 
 belgacoin:
   label: Belgacoin
-  countries: [fi, at, be, bg, es , hr, cy, cz, dk, ee, fi, fr, gf, de, gi, gr, gp, hu, is, ie, it, lv, li, lt, lu, mt, mq, yt, mc, nl, no, pl, pt, re, ro, bl, mf, pm, sk, si, es, se, ch, uk]
+  countries: [fi, at, be, bg, es, hr, cy, cz, dk, ee, fi, fr, gf, de, gi, gr, gp, hu, is, ie, it, lv, li, lt, lu, mt, mq, yt, mc, nl, no, pl, pt, re, ro, bl, mf, pm, sk, si, es, se, ch, uk]
   location: [be]
   icon: http://www.belgacoin.com/favicon.ico
   url: http://www.belgacoin.com/
@@ -997,7 +994,7 @@ bit121:
 
 bit4coin:
   label: bit4coin
-  countries: [fi, at, be, bg, es , hr, cy, cz, dk, ee, fi, fr, gf, de, gi, gr, gp, hu, is, ie, it, lv, li, lt, lu, mt, mq, yt, mc, nl, no, pl, pt, re, ro, bl, mf, pm, sk, si, es, se, ch, uk]
+  countries: [fi, at, be, bg, es, hr, cy, cz, dk, ee, fi, fr, gf, de, gi, gr, gp, hu, is, ie, it, lv, li, lt, lu, mt, mq, yt, mc, nl, no, pl, pt, re, ro, bl, mf, pm, sk, si, es, se, ch, uk]
   location: [nl]
   icon: https://bit4coin.net/favicon.ico
   url: https://bit4coin.net/
@@ -1039,6 +1036,7 @@ bitcoin-indonesia:
   url: https://www.indo-bitcoin.com
   content: Buy and sell Bitcoin with lowest fees in Indonesia. Bank transfer accepted from Mandiri, BCA, BNI and BRI.
   coins: [btc]
+
 btcsm:
   countries: [al, dz, ar, am, au, at, az, bh, by, be, bo, br, bg, kh, ca, cv, cl, cn, co, cr, cy, cz, dk, do, ec, eg, sv, ee, fi, fr, ge, de, gh, gr, gt, hn, hk, hu, in, id, iq, ie, il, it, jo, kz, ke, kw, kg, lv, lb, lt, lu, mk, my, mx, me, ma, nl, nz, ni, ng, no, om, pa, py, pe, pl, pt, qa, ro, sa, rs, si, za, es, sd, se, ch, tj, th, tn, tr, ug, ua, gb, uy, ve, ye]
   location: [il]
@@ -1051,7 +1049,7 @@ btcsm:
 
 coinclutch:
   label: CoinClutch
-  countries: [au,ca]
+  countries: [au, ca]
   location: [ca]
   icon: https://coinclutch.com/favicon.ico
   url: https://coinclutch.com/
