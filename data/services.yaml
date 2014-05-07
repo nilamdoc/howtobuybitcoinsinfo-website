@@ -77,10 +77,11 @@ ibwt:
   icon: /favicon.png
   label: IBWT
   url: https://ibwt.co.uk/
-  content: Cryptocurrency exchange.
-  countries: [uk]
+  content: <b>Cryptocurrency exchange.</b>
+  <p>Buy and Sell Bitcoins, and other Cryptocurrency via IBWT, low verification, a secure platform, easy to withdraw and deposit. Shop direct from IBWT or withdraw your coins to your own wallet at your own leisure.</p>
+  countries: [uk, us, gb, in]
   location: [uk]
-  coins: [BTC, LTC]
+  coins: [BTC, LTC, XGC]
 
 bitbargain:
   icon: /favicon.png
